@@ -58,7 +58,7 @@ p.intro,
   }
 
   strong {
-    font-family: $headline-font;
+    font-family: $nav-font;
     font-weight: bold !important;
     font-size: 0.75rem;
     display: inline-block;
@@ -151,12 +151,6 @@ article {
   p + h2 {
     padding-top: 1rem;
   }
-
-  p strong,
-  p b {
-    font-weight: normal !important;
-  }
-
   p.center {
     text-align: center;
   }
