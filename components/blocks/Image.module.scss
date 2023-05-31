@@ -12,11 +12,16 @@
     padding-right: var(--grid-unit);
   }
 
-  &.large {}
+  &.large {
+  }
 
-  &.portrait {}
+  &.portrait {
+    padding-left: var(--grid-unit);
+    padding-right: var(--grid-unit);
+  }
 
-  .image {}
+  .image {
+  }
 
   figcaption {
     line-height: 0 !important;

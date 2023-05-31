@@ -30,7 +30,7 @@ export default function MetaSection({ items = [] }: Props) {
                 {links.length > 0 ?
                   links.map((link, idx) =>
                     link.startsWith('http') ?
-                      <a href={link}>{values[idx]} &#8599;</a>
+                      <a href={link}>{values[idx]}</a>
                       :
                       <Link href={link}>{values[idx]}</Link>
                     //@ts-ignore

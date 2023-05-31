@@ -7,7 +7,7 @@
   overflow: hidden;
   background: var(--background);
   transition: transform var(--menu-transition);
-  border-left: 5px solid var(--white);
+  border-left: max(0.2vw, 2px) solid var(--white);
   min-width: 20%;
   max-width: 20%;
 
@@ -38,7 +38,7 @@
   }
 
   a:hover {
-    color: var(--black) !important;
+    color: var(--red) !important;
   }
 
   ul {
@@ -144,7 +144,7 @@
     padding-bottom: 0.3rem;
 
     &::placeholder {
-      color: var(--white);
+      color: var(--black);
     }
 
     cursor: pointer;

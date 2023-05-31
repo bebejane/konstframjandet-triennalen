@@ -30,7 +30,7 @@ export default function SectionHeader() {
   const label = !isSearch ? `${!isHome ? `${t(section)}` : ''}` : t('search')
 
   const header = (
-    <h2>
+    <h3 className="mid">
       <span key={label}>
         {label.split('').map((c, idx) =>
           <span
@@ -41,12 +41,12 @@ export default function SectionHeader() {
           >{c}</span>
         )}
       </span>
-    </h2>
+    </h3>
   )
 
   return (
     <>
-      <Link href="/" className={s.logo}><h1 className="logo">Triennalen</h1></Link>
+      <Link href="/" className={s.logo}><h5 className="logo">Triennalen</h5></Link>
       <header className={cn(s.header, !showMenu && s.full, isHome && s.home)}>
         {parentPath && asPath !== parentPath && parent ?
           <Link href={parentPath} transformHref={false}>

@@ -13,7 +13,7 @@
 	--body-width: calc(100% - (2 * var(--outer-margin)));
 	--full-margin: calc(-1 * (2 * var(--grid-unit)));
 	--wide-margin: calc(var(--total-outer-margin) + (1.2 * var(--grid-unit)));
-	--small-space: 1rem;
+	--small-space: 1.5rem;
 	--space: 2rem;
 	--big-space: 3rem;
 	--line-height: 1.5em;
@@ -21,13 +21,10 @@
 	--gutter-half: 4vw;
 	--header-height: calc((var(--outer-margin) * 2) + 2.75rem); //snygga upp sen
 	--menu-transition: 0.3s ease-in-out;
-
 	--background: var(--back);
 	--foreground: var(--black);
-
 	--z-background-image: 0;
 	--z-section-header: 100;
-
 	--z-language: 300;
 	--z-menu: 400;
 	--z-footer: 500;
@@ -35,6 +32,7 @@
 	--z-hamburger: 700;
 	--z-fullscreen-gallery: 800;
 	--z-fullscreen-gallery-close: 801;
+	--thick-line: max(5px, 0.55vw);
 
 	@include mq($from: tablet) {
 		--body-width: calc(100% - (2 * var(--grid-unit)));
@@ -136,14 +134,15 @@ button {
 	padding-right: 1.5em;
 	padding-bottom: 1.5em;
 	padding-top: 1.5em;
-	background-color: var(--green);
-
-	color: var(--white);
+	color: var(--red);
 	border: 0;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	font-weight: bold;
 	cursor: pointer;
+	border-top: 5px solid var(--white);
+	border-bottom: 5px solid var(--white);
+	background-color: var(--back);
 
 	@include mq($from: tablet) {
 		margin-left: var(--grid-unit);
@@ -163,7 +162,7 @@ button {
 	}
 
 	&:hover {
-		background-color: var(--foreground);
+		background-color: var(--red);
 		color: var(--white);
 	}
 }

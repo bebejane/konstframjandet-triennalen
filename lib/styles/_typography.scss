@@ -4,39 +4,35 @@ body {
   font-weight: normal;
 
   @include mq($from: tablet) {
-    font-size: 2vw;
+    font-size: 1.4vw;
   }
 }
 
-h1 {
-  font-size: 1.7rem;
+h1,
+h2,
+h5 {
+  font-size: 2.5rem;
   font-weight: bold;
   padding-bottom: var(--space);
   line-height: 1.25;
-  font-family: $body-font;
+  font-family: $headline-font;
   text-align: center;
+  color: var(--red);
+
   @include mq($until: tablet) {
     padding-left: var(--outer-margin);
     padding-right: var(--outer-margin);
   }
 }
 
-h1.logo {
+h5.logo {
   font-family: $logo-font;
-}
-
-h2 {
-  font-size: 0.95rem;
-  @include mq($from: tablet) {
-    font-size: 0.75rem;
-  }
-  font-family: $headline-font;
+  color: var(--black);
 }
 
 h3 {
-  font-size: 1rem;
-  font-family: $body-font;
-  text-align: center;
+  font-size: 1.2rem;
+  font-family: $nav-font;
   padding-bottom: 1em;
   line-height: 1.2;
 }
@@ -84,9 +80,9 @@ footer,
 footer nav,
 figcaption,
 .caption label {
-  font-family: $headline-font;
+  font-family: $nav-font;
   font-size: 0.85rem;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
   @include mq($from: wide) {
     font-size: 0.7rem;
@@ -95,14 +91,14 @@ figcaption,
 
 nav,
 .mid,
-button,
+h3.mid button,
 .mid input,
 .mid select {
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-family: $nav-font;
   font-weight: bold;
   @include mq($from: tablet) {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 }
 
@@ -113,6 +109,16 @@ b {
 
 // För Article
 article {
+  .structured p:first-of-type:first-letter {
+    float: left;
+    color: #d20000;
+    font-size: 5.4rem;
+    line-height: 60px;
+    padding-top: 0.55rem;
+    padding-right: 0.5rem;
+    font-family: $headline-font;
+  }
+
   ul {
     padding-left: 1em;
     list-style-type: square;
@@ -157,7 +163,7 @@ article {
 }
 
 button {
-  font-family: $headline-font;
+  font-family: $nav-font;
 }
 
 em,

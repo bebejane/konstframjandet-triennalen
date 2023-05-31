@@ -16,6 +16,8 @@ export default function StartRandomParticipant({ data: { participants } }: Props
   return (
     <div className={s.container}>
       <header>
+        <span></span>
+
         <h2>{t('Menu.participants')}</h2>
         <Link href={'/medverkande'} className="small">
           {t('General.showAll')}
