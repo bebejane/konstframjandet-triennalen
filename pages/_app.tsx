@@ -18,7 +18,7 @@ function App({ Component, pageProps, router }) {
 
   const page = pageProps.page || {} as PageProps
   const { asPath } = useRouter()
-  const siteTitle = PROJECT_NAME
+  const siteTitle = 'Triennalen'
   const isHome = asPath === '/' || locales.find(l => asPath === `/${l}`) !== undefined
   const errorCode = parseInt(router.pathname.replace('/', ''))
   const isError = (!isNaN(errorCode) && (errorCode > 400 && errorCode < 600)) || router.pathname.replace('/', '') === '_error'
