@@ -22,9 +22,8 @@ export default function withGlobalProps(opt: any, callback: Function): GetStatic
     const years = await allYears()
     let year = years.find(({ title }) => context.params?.year ? title === context.params?.year : title === years[0].title)
 
-    if (!year) {
+    if (!year)
       return { notFound: true };
-    }
 
     year = { ...year, isArchive: year.title !== years[0].title } as YearExtendedRecord
 
