@@ -55,11 +55,6 @@ query Start {
 					}
 				}
 			}
-			... on StartNewsRecord {
-				__typename
-				id
-				amount
-			}
 			... on StartVideoRecord {
 				__typename
 				id
