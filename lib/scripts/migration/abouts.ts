@@ -1,6 +1,5 @@
 import fs from 'fs'
 import {
-  allDistricts,
   itemTypeToId,
   allPages,
   htmlToMarkdown,
@@ -25,8 +24,6 @@ export const migrateAbout = async (subdomain: string | undefined) => {
   try {
 
     const wpapi = buildWpApi(subdomain)
-    const districts = await allDistricts()
-    const districtId = districts.find(el => el.subdomain === subdomain).id
     const itemTypeId = (await itemTypeToId('about')).id
     const allPosts = await allPages(wpapi, 'about')
     const blockIds = await allBlockIds()
@@ -43,7 +40,6 @@ export const migrateAbout = async (subdomain: string | undefined) => {
       content,
       acf: {
         intro,
-        dropcap
       } }) =>
     (cleanObject({
       createdAt,
@@ -51,8 +47,7 @@ export const migrateAbout = async (subdomain: string | undefined) => {
       intro: intro ? htmlToMarkdown(intro) : undefined,
       content: await htmlToStructuredContent(content.rendered, blockIds, [subdomain]),
       slug: parseSlug(slug),
-      dropcap,
-      district: districtId
+
     }))))
 
     console.log(`Import ${items.length} about items...`)
@@ -65,9 +60,10 @@ export const migrateAbout = async (subdomain: string | undefined) => {
     }
     writeErrors(errors, subdomain, 'about')
   } catch (err) {
+    console.log(err)
     writeErrors([{ error: err }], subdomain, 'about')
   }
   console.timeEnd(`import-about-${subdomain}`)
 }
 
-migrateAbout('vastmanland')
+migrateAbout('triennalen')

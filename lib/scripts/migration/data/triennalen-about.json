@@ -1,0 +1,560 @@
+[
+  {
+    "id": 290,
+    "date": "2022-06-29T13:56:50",
+    "date_gmt": "2022-06-29T11:56:50",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-about&#038;p=290"
+    },
+    "modified": "2022-06-29T13:56:50",
+    "modified_gmt": "2022-06-29T11:56:50",
+    "slug": "catalog",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://triennalen.konstframjandet.se/om/english-summary/catalog/",
+    "title": {
+      "rendered": "Catalog"
+    },
+    "content": {
+      "rendered": "<p><a href=\"http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/06/Catalog-Triennalen-english.pdf\">Catalog, english</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 19,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about/290"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about/19"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=290"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 286,
+    "date": "2022-06-29T12:32:57",
+    "date_gmt": "2022-06-29T10:32:57",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-about&#038;p=286"
+    },
+    "modified": "2022-06-29T12:33:27",
+    "modified_gmt": "2022-06-29T10:33:27",
+    "slug": "about-konstframjandet",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://triennalen.konstframjandet.se/om/english-summary/about-konstframjandet/",
+    "title": {
+      "rendered": "About Konstfrämjandet"
+    },
+    "content": {
+      "rendered": "<p><span style=\"font-weight: 400\">Konstfrämjandet Västernorrland is a non-profit organisation that seeks to make contemporary art accessible and promote the role of art and artists in society. </span></p>\n<p><span style=\"font-weight: 400\">With collaboration as our starting point, Konstfrämjandet Västernorrland seeks to promote small and major arts practitioners, organisations and initiatives that are already active in the region, mapping the diverse artistic and cultural landscape. Through outreach programmes, art can contribute to expanding our ability to reflect on and think about society, collectively and as individuals.</span></p>\n<p><span style=\"font-weight: 400\">The Västernorrland district of Konstfrämjandet was launched in 2021 and has a mobile operation throughout the region.</span></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 19,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Konstfrämjandet is dedicated to its mission “art for everyone”.<br />\r\n<br />\r\nWe see art as a way of reflecting on ourselves and society. Together with artists, participants and our members, we offer alternative perspectives on the times we live in. We produce and distribute art all over Sweden, through new works, exhibitions, books and encounters. Konstfrämjandet is independent from any political party and is active all over Sweden through its affiliates and districts, which are diverse but united in their strong commitment to art and society. Our members are various social movements, including community education centres and trade unions.<br />\r\n<br />\r\nWe are dedicated to the importance of art, and want to contribute to making art accessible to everyone in a fair and equal society.",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about/286"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about/19"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=286"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 285,
+    "date": "2022-06-29T12:31:38",
+    "date_gmt": "2022-06-29T10:31:38",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-about&#038;p=285"
+    },
+    "modified": "2022-06-29T12:31:38",
+    "modified_gmt": "2022-06-29T10:31:38",
+    "slug": "the-2022-curatorial-theme",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://triennalen.konstframjandet.se/om/english-summary/the-2022-curatorial-theme/",
+    "title": {
+      "rendered": "The 2022 curatorial theme"
+    },
+    "content": {
+      "rendered": "<p><span style=\"font-weight: 400\">In social debate, the figurative meanings are less interesting. Wind is central to something that concerns many people in Västernorrland – wind power. A question that may seem fairly straightforward at first glance but has major implications, which explains why it has become so important.</span></p>\n<p><span style=\"font-weight: 400\">The resistance to wind power may seem strange to an outsider, considering the potential to reduce our dependence on Russian gas and oil, and wouldn’t it be great if we could replace all fossil fuels with renewable energy sources? Everyone agrees about that, but the fitters and technicians who build the wind parks are not locals, hardly any staff is needed to run them, and the electricity they generate is sent to plants far away. What Västernorrland gets is environmental damage, limitations in the freedom to roam the forests, uglified vistas and further encroachments on an already struggling reindeer farming industry. This pattern is familiar from the mining and forest industries and the hydroelectric power plants in the north. Money and job opportunities are siphoned off and northern Sweden is left mainly with the drawbacks. The question is what these wind parks can offer the region in exchange.</span></p>\n<p><span style=\"font-weight: 400\">Wind power is all about resources, who owns them and who exploits them. It is a matter of silence, nature, sustainability, environment, but also of the distribution of resources between urban and rural areas, between north and south Sweden, and ultimately, between inland and coastal areas. This is partly what makes the question of wind power so crucial.</span></p>\n<p><span style=\"font-weight: 400\">The history of wind power goes back 6,000 years, when people first began using sails on their vessels. This technology was dominating until steamboats took over in the mid-1800s. Many expressions and similes relating to wind come from when shipping depended heavily on winds and weather conditions, and we can still relate to them today. As the saying goes: “If one </span><i><span style=\"font-weight: 400\">does not</span></i><span style=\"font-weight: 400\"> know to which port one </span><i><span style=\"font-weight: 400\">is</span></i><span style=\"font-weight: 400\"> sailing, </span><i><span style=\"font-weight: 400\">no wind is favourable.”</span></i> <span style=\"font-weight: 400\">[G3] </span><span style=\"font-weight: 400\">That’s probably sound advice. Although, sometimes it can be good to drift with the wind, since that way of getting through life can lead to many new experiences. But we need an overarching vision of where we are heading.</span></p>\n<p><span style=\"font-weight: 400\">Where can we find that in Västernorrland, with its multiple identities? The inland forests, the Sami land, the dramatic high coastline, fishing along the coast, shipping to and from the businesses and industries in the major ports, and the network of railways, bridges and roads inland.</span></p>\n<p><span style=\"font-weight: 400\">As the climate crisis closes in on us, the interest in wind power and other renewable energy sources is growing. The tendency is a return to wind, water and sun – while fossil fuels will most likely be seen as an unfortunate historic parenthesis linked to the 20</span><span style=\"font-weight: 400\">th</span><span style=\"font-weight: 400\"> century. This going back to the roots is strong in many areas, not least in the field of art, where we have seen a renewed interest in craft skills and traditional techniques over the past decade. There is also a greater focus on the rural districts and smaller communities outside the major cities. So, the future for Västernorrland could be looking up.</span></p>\n<p><span style=\"font-weight: 400\">Thus, the theme of the Triennial is Wind, since it is so deeply connected to the current social debate, and, thus, to the development of Västernorrland and Norrland in general.  This creates a broad potential for artists to interpret and design within the framework of the Triennial. Together, they will be a wind that blows through the tops of the firtrees in the north and south of Sweden the inlands and the coastline. A wind that is felt everywhere. A wind that carries a message of a new era and new possibilities. It supports our backs and resuscitates. This wind is the air we breathe, that fills the lungs of the trumpeter who blew the cease-fire signal in Ådalen </span><span style=\"font-weight: 400\">[G4] </span><span style=\"font-weight: 400\">in 1931. It is a wind that tells of sacrifices made on the way to the society we live in today.</span></p>\n<p><span style=\"font-weight: 400\"> </span></p>\n<p><span style=\"font-weight: 400\">We are now organising the first Triennial in Västernorrland, and the concept holds an inherent commitment to future major art initiatives in the region every three years. This raises hopes for change, a forward-looking and evolving arts scene that has its eyes on the world – while drawing attention to Västernorrland. Harnessing the wind is an excellent way to get the process going. We put our finger to the air to feel where the wind blows. But first, maybe we should ask ourselves: where do we want to go? The Triennial offers no clear or simple answers to that question, but art could show us the way.</span></p>\n<p><span style=\"font-weight: 400\">Together with artists who live or have lived in the region, or who have other ties to it, all those involved in the project and myself as its curator, we have had the opportunity to look back in time, scrutinise our heritage, track movements in the past and the future. Now, we hope that everyone who visits the exhibition will begin to see the place where we want to go, to understand the winds that are blowing, the winds that will take us there and the winds that hold us back.</span></p>\n<p><span style=\"font-weight: 400\">-Björn Norberg, 2022</span></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 19,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "The theme of the 2022 Triennial is Wind, a universally relatable phenomenon. Wind can be interpreted literally or symbolically in many different ways. We have a tail wind, or struggle against the wind, we have wind in our sails, the wind bites our cheeks, a storm is brewing, a minor setback is a breeze compared to a major disaster, and we wait for the wind to turn or for the winds of change.",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about/285"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about/19"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=285"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 216,
+    "date": "2022-05-19T15:09:54",
+    "date_gmt": "2022-05-19T13:09:54",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-about&#038;p=216"
+    },
+    "modified": "2022-05-20T23:06:47",
+    "modified_gmt": "2022-05-20T21:06:47",
+    "slug": "dit-vinden-tar-oss-triennalen-2022",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://triennalen.konstframjandet.se/om/om-oss/dit-vinden-tar-oss-triennalen-2022/",
+    "title": {
+      "rendered": "Programförklaring 2022 – Dit vinden tar oss"
+    },
+    "content": {
+      "rendered": "<p>I samhällsdebatten är de bildliga betydelserna mindre intressanta. Vinden är central för en av de frågor som engagerar många i Västernorrland – vindkraften. En fråga som till att börja med verkar ganska enkel men som bär med sig något större, vilket förklarar varför den blivit så viktig.</p>\n<p>Motståndet mot vindkraften kan för en utomstående verka konstigt med tanke på möjligheten att minska beroendet av rysk gas och olja och vore det inte en utmärkt idé om vi kunde ersätta alla fossila energikällor med förnyelsebara? Allt detta är alla med på, men parkerna byggs av tillresta montörer och tekniker, driften kräver just ingen arbetskraft och den el som de genererar skickas till industrier långt bort. För Västernorrlands del återstår en negativ naturpåverkan, inskränkningar i hur man kan röra sig i skogarna, förlorade vyer och en negativ påverkan på en redan ansatt rennäring. Mönstret känns igen från gruvindustrin, skogsindustrin och vattenkraftverken i norra Sverige. Pengar och arbetstillfällen hamnar någon annanstans och kvar i norr finns mest nackdelar. Frågan är vad kan dessa vindkraftsparker ge regionen tillbaka?</p>\n<p>Vindkraften är alltså en fråga om resurser, om vem som äger och använder dem. Det är en fråga som rör tystnad, natur, hållbarhet, miljö men även resursfördelning mellan stad och landsbygd, norr och söder och i sin förlängning blir det också en fråga om fördelningen mellan inland och kustland. Det bidrar till att vindkraftsfrågan blir så viktig.</p>\n<p>Vindkraftens historia är lång och kan räknas tillbaka till då man för 6 000 år sedan började använda segel till båtar. Tekniken användes ända fram till dess att ångbåtar sattes i trafik i mitten av 1800-talet. Då sjöfarten var starkt vind- och väderberoende finns det många uttryck och liknelser kopplade till vinden som lever kvar än i dag och som vi starkt kan relatera till. Ett ordspråk jag gissar har sitt ursprung i sjöfarten löd ”det finns inga goda vindar för den som inte har bestämt sitt mål”. Det är säkert en god tanke. I och för sig kan det vara bra att ibland låta sig drivas lite vind för våg eftersom det sättet att ta sig fram i livet skapar många nya erfarenheter. Samtidigt måste det finnas en övergripande vision om vart vi är på väg.</p>\n<p>Var kan vi hitta den i Västernorrland med sina många olika identiteter? Inlandets skogar, de samiska markerna, höga kustens dramatik, fisket kring kusten, sjöfarten med handel och industrier i de stora kuststäderna och järnvägen, broarna och vägarnas kommunikationer i landets mitt.</p>\n<p>Med den klimatkris som kryper allt närmare blir intresset för vindkraften och andra förnyelsebara källor allt större. Utvecklingen pekar mot en återgång till vinden, vattnet och solen &#8211; de fossila bränslena ser ut att hamna inom en sorglig historisk parentes framför allt kopplat till 1900-talet. Trenden om en återgång till det ursprungliga är stark på många håll och inte minst synligt inom konstområdet där intresset för det av handen skapade och traditionella tekniker vuxit starkt under det senaste decenniet. Det finns samtidigt ett allt större intresse för landsbygden och mindre orter utanför storstäderna. Framtiden för Västernorrland borde alltså kunna bli allt ljusare.</p>\n<p>Tematiken för Triennalen är därför Vinden då den starkt kan kopplas till den pågående samhällsdebatten, och i sin tur till utvecklingen i Västernorrland och Norrland i stort. Det skapar inom ramen för en triennal stora möjligheter för konstnärliga tolkningar och gestaltningar. Tillsammans blir dessa en vind som drar över grantopparna i norr, söder, inland och kustland. En vind som känns av överallt. En vind som bär med sig ett budskap om en ny tid och om möjligheter. Den ger våra ryggar stöd och blåser liv. Det är en vind som är luften vi andas och som fyller lungorna på trumpetaren som den där dagen 1931 blåste ”eldupphör”. Det är en vind som berättar om de uppoffringarna som gjorts på vägen mot det samhälle vi lever idag.</p>\n<p>Nu arrangeras den första triennalen i Västernorrland och i konceptet finns ett inbyggt löfte om fortsatta stora konstsatsningar vart tredje år i regionen. Det väcker förhoppningar om en förändring, ett framåtblickande kulturliv som utvecklas och riktar blickarna ut i världen &#8211; samtidigt som blickarna riktas tillbaka mot Västernorrland. Som en början på en sådan utveckling kan vinden fungera som en väldigt bra utgångspunkt. Vi sätter upp ett finger i luften för att känna efter varåt det blåser. Men innan vi gör det bör vi kanske fråga oss: vart vill vi? Triennalen ger inget tydligt eller enkelt svar på den frågan, men konsten kan visa riktningen.</p>\n<p>Tillsammans med konstnärer som bor, har bott eller har en annan anknytning till regionen, har jag som curator och alla andra inblandade i projektet fått möjligheten att blicka bakåt i historien, leta i ursprunget, följa rörelser i dåtid och nutid. Nu hoppas vi att alla som besöker utställningen börjar skönja den plats dit vi vill ta oss, förstå de vindar som blåser, vilka som leder oss dit och vilka som motar oss bakåt.</p>\n<p>-Björn Norberg</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 16,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Tema för Triennalen 2022 är vinden, ett fenomen som alla kan relatera till. Vinden går att läsa in bokstavligt och användas symboliskt på många olika sätt. Vi befinner oss i medvind och motvind, vi söker luft under vingarna, vinden är isande och bitande, det blåser upp till storm, ett mindre bakslag är likt en svag bris i jämförelse med den stora katastrofen, och vi väntar på att vinden ska vända och på förändringsvindar.",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about/216"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about/16"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=216"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 117,
+    "date": "2022-04-03T17:21:39",
+    "date_gmt": "2022-04-03T15:21:39",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-about&#038;p=117"
+    },
+    "modified": "2022-04-04T21:21:26",
+    "modified_gmt": "2022-04-04T19:21:26",
+    "slug": "nyheter",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://triennalen.konstframjandet.se/om/nyheter/",
+    "title": {
+      "rendered": "Nyheter:"
+    },
+    "content": {
+      "rendered": "<p><a href=\"http://triennalen.konstframjandet.se/om/nyheter/pressrelease/\">Nyhet &#8211; 33 konstnärer utvalda till allra första Triennalen i Västernorrland </a></p>\n<p><a href=\"http://triennalen.konstframjandet.se/om/nyheter/kriget-mot-ukraina-gav-triennalen-nya-planer/\">Nyhet &#8211; Kriget mot Ukraina gav Triennalen nya planer</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about/117"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=117"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 115,
+    "date": "2022-04-03T17:15:54",
+    "date_gmt": "2022-04-03T15:15:54",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-about&#038;p=115"
+    },
+    "modified": "2022-04-04T21:15:15",
+    "modified_gmt": "2022-04-04T19:15:15",
+    "slug": "kriget-mot-ukraina-gav-triennalen-nya-planer",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://triennalen.konstframjandet.se/om/nyheter/kriget-mot-ukraina-gav-triennalen-nya-planer/",
+    "title": {
+      "rendered": "Nyhet &#8211; Kriget mot Ukraina gav Triennalen nya planer"
+    },
+    "content": {
+      "rendered": "<p><img loading=\"lazy\" width=\"215\" height=\"300\" class=\"alignnone size-medium wp-image-105\" src=\"http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/03/Akvarell-pa-papper-40x30cm.-Ylva-Westerlund-2022.-Del-i-installationen-Only-birds-shall-fly-and-the-military-rust-Ylva-Westerlund-Mats-Adelman-2022-215x300.jpg\" alt=\"\" srcset=\"http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/03/Akvarell-pa-papper-40x30cm.-Ylva-Westerlund-2022.-Del-i-installationen-Only-birds-shall-fly-and-the-military-rust-Ylva-Westerlund-Mats-Adelman-2022-215x300.jpg 215w, http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/03/Akvarell-pa-papper-40x30cm.-Ylva-Westerlund-2022.-Del-i-installationen-Only-birds-shall-fly-and-the-military-rust-Ylva-Westerlund-Mats-Adelman-2022-735x1024.jpg 735w, http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/03/Akvarell-pa-papper-40x30cm.-Ylva-Westerlund-2022.-Del-i-installationen-Only-birds-shall-fly-and-the-military-rust-Ylva-Westerlund-Mats-Adelman-2022-768x1071.jpg 768w, http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/03/Akvarell-pa-papper-40x30cm.-Ylva-Westerlund-2022.-Del-i-installationen-Only-birds-shall-fly-and-the-military-rust-Ylva-Westerlund-Mats-Adelman-2022-1102x1536.jpg 1102w, http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/03/Akvarell-pa-papper-40x30cm.-Ylva-Westerlund-2022.-Del-i-installationen-Only-birds-shall-fly-and-the-military-rust-Ylva-Westerlund-Mats-Adelman-2022-1469x2048.jpg 1469w, http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/03/Akvarell-pa-papper-40x30cm.-Ylva-Westerlund-2022.-Del-i-installationen-Only-birds-shall-fly-and-the-military-rust-Ylva-Westerlund-Mats-Adelman-2022-1x1.jpg 1w, http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/03/Akvarell-pa-papper-40x30cm.-Ylva-Westerlund-2022.-Del-i-installationen-Only-birds-shall-fly-and-the-military-rust-Ylva-Westerlund-Mats-Adelman-2022-scaled.jpg 1836w\" sizes=\"(max-width: 215px) 100vw, 215px\" /><em>Detalj ur installationen Only Birds Shall Fly and the Army Rusts av Mats Adelman och Ylva Westerlund.</em></p>\n<p>Egentligen skulle verket visas på en utställning i Ryssland. Men så kom kriget. Så nu visas det militärkritiska och miljöaktivistiska verket av Ylva Westerlund och Mats Adelman på Triennalen. Only Birds shall Fly and the Military Rusts vill med akvarell och fågelporträtt öppna upp för idén om en radikal militär omställning.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Ylva Westerlund var en av de 33 konstnärer som valdes ut att delta i Triennalen som öppnar under våren och sommaren. Ylva, vars konstnärskap bygger mycket på naturstudier, är uppvuxen i Husum och hade tänkt medverka med ett verk knutet till födelseorten. Men när anfallskriget mot Ukraina bröt ut blev det ändrade planer. Verket Only Birds shall Fly and the Military Rusts skulle egentligen visats på samlingsutställningen Art and Life in the Critical Zone i Izhevsk i Udmurtien, en delrepublik i Ryssland som skulle öppnat 26 mars. Utställningen lades den ner eftersom den var associerad med ett kommunalt museum som omfattats av sanktioner. Verket hade redan skickats dit men är nu på väg tillbaka via diplomatiska förbindelser och ska nu istället visas på Apotekshuset- Konst och Kultur i Sollefteå.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Ylva Westerlund: Verket Only Birds Shall Fly and the Military Rusts består av akvarellstudier av rost jag sett på militärfordon och Mats Adelman har gjort fåglar relaterade till en specifik biotop. Verket utgår ifrån ett ögonblick, en vandring på ett nedlagt militärfält i mars 2020, under corona. Man märkte att det var väldigt stilla, inga flygplan. I det här tillståndet av avstannade såg man hur naturen började ta över igen och militärfordonen var nästan överväxta av mossa och hade börjat en nedbrytningsprocess.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Verket föddes ur reflektionen ur det här ögonblicket som en spricka i tiden, en öppning för reflektion. Hur vore det om man miljöanpassade försvaret för att nå de miljömässiga målen? Hur skulle det vara med miljövänliga skott, att driva pansarvagnar med kompost? Skulle det i sin tur påverka deras mål, alltså att de skulle börja skydda folk från hot om miljökatastrofer? Tänk om en miljöomställning skulle förändra själva målsättningen för försvaret om man skulle börja tänka på klimatförändringarna som hot mot mänskligheten, att förändra målsättningen och logik. Vi gjorde fältnoteringar som började med en vandring, vi gjorde observationer, som ledde till tankar som fick spinna iväg.Ylva Westerlund: Sollefteå är också ett ställe där man sedan länge haft ett militärt övningsfält, men nu har man bestämt att man ska satsa mer på försvaret, så mer pengar skjuts till på grund av det rådande världsläget. Militärkomplexet växer. I Sverige finns 70 aktiva militärövningsområden, det blir totalt en stor areal. Områdena blir genom aktiviteten skyddade, med bieffekten är att naturen lämnas ifred. I det här verket har vi velat tittat på hur sådana här områden kan se ut i framtiden. Det är viktigt börja tänka om. Hur ska vi förhålla oss till natur och inte bara extrahera råvaror? Då kan de här områdena vara viktiga för att utöka och bevara biologisk mångfald, men även som en slags vision av en annan typ av utveckling. Att inse att en fortfarande har ett val. I akuta situationer, som världsläget just nu, så får man för sig at det bara finns ett sätt, en väg att gå. Men det är viktigt att försöka behålla en diskussion kring det här, fast det är svårt. Verket försöker visa på kopplingen mellan det lokala och det globala.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>I en av akvarellerna finns en text/fältanteckning på engelska, efter som verket skulle visas i Ryssland:<br />\n”Only birds shall fly and the military rust.<br />\nMarch 2020, at an abandonned military training ground outside of Stockholm.<br />\nIt’s early spring. 2 degrees cold in the morning. Thin ice covering the puddles on the forest road and parts of the lake.<br />\nJust before dawn there was a noticeable silence in the area- there were no planes crossing the skies. Before the spread of the corona virus the aerial space over the fields had a high frequency of traffic. And now there was none.<br />\nWhen the first rays of sun coloured the clouds the activity intensified among the birds. A few loud yaffles from a Green woodpecker, then a Black bird flew up with a warning call. On the ground a small group of Sky larks, Wood larks and Meadow pipits. Futher down the road, by the tall Beech trees, a Hawfinch flew by.<br />\nWhen the light grew stronger over the fields a group of motorized vehicles became visible. By a closer inspection of the body work one could see that the paint and metal directly affected by sun and wind had turned pale, fragile and flaky. Tall grass and herbs in the immediate surroundings made the objects dry and dusty.<br />\nSome other deserted vehicles were spotted under the Oak trees. The specific biotope created a microclimate were moss and lichens just about managed to cover the underlying metal structures. A process close to something that could be described as biological decay…<br />\nWatching the rust on military objects falling apart, the possibility for an environmental adapted army service? Ammunition made biodegradable, bandwagons fueled by mobile enclosed hot-compost units… And then maybe the whole purpose and aim for these machines would be redirected…”</p>\n<p>Only Birds Shall Fly and the Army Rusts öppnar på Apotekhuset i Sollefteå den 11 juni.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 117,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Verket skulle egentligen visats på samlingsutställningen Art and Life in the Critical Zone i Izjevsk i Udmurtien, en delrepublik i Ryssland som skulle öppnat 26 mars. Men då anfallskriget mot Ukraina hände, lades den ner eftersom den var associerad med ett kommunalt museum som omfattats av sanktioner.",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about/115"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about/117"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=115"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "date": "2022-02-24T19:07:50",
+    "date_gmt": "2022-02-24T18:07:50",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-about&#038;p=54"
+    },
+    "modified": "2022-04-04T21:15:03",
+    "modified_gmt": "2022-04-04T19:15:03",
+    "slug": "pressrelease",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://triennalen.konstframjandet.se/om/nyheter/pressrelease/",
+    "title": {
+      "rendered": "Nyhet &#8211; 33 konstnärer utvalda till allra första Triennalen i Västernorrland"
+    },
+    "content": {
+      "rendered": "<p>Bakgrunden till vårens och sommarens stora konsthändelse är beslutet att låta Y-salongen expandera och omfatta fler städer och institutioner. Syftet är att aktivera och belysa det betydande och livaktiga konstlivet i Västernorrland. Urvalet speglar i stort sett fördelningen i ansökningar, med tre fjärdedelar intresseanmälningar från kvinnliga konstnärer och en fjärdedel manliga. I höstas utsågs Björn Norberg till curator:</p>\n<p class=\"blank\">&nbsp;</p>\n<p>–Det har varit ett nöje att få lära känna regionens konstliv på djupet på det här sättet. Här finns så många lager av historia, natur, industrier och naturresurser som varit essentiella i övergången från bondesamhälle till modern stat. Det var också av den anledningen jag föreslog vinden som kraft som tematisk underström i Triennalen, säger Björn Norberg. Vindkraften är en av många aktuella frågor om resursfördelning och hänger i sin tur samman med många andra viktiga diskussioner kopplade till framtidens samhällsutveckling. Dessutom har vinden många symboliska betydelser.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Utvalda konstnärer</p>\n<p>Mats Adelman, Andreas Brännlund, Annikka Kronlid Arvidsson, Birgitta Ricklund, Cecilia Björk, Cecilia Hultman, Cecilia Ömalm, Christian Bjärgö, David Larsson, Elin Kristoffersson, Elin Maria Johansson, Elme Ämting-Selja, Emilia Bergmark, Emma Löfström, Fredrik Nordin, Ida Rödén, Ina Palm, Ingvar Sjöberg, Jenny Berg, Jenny Lundgren, Josefin Östberg Olsson, Linda Lasson, Linnéa Therese Dimitriou, Lisa W Carlson, Margareta Klingberg, Maria Mäki, Maria Sundström, Max Book, Nina Svensson, Oscar Kaleva Karlsson, Sonia Hedstrand, Ulla-Carin Winter, Ylva Westerlund.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Triennalen kommer att äga rum på följande platser i Västernorrland: Örnsköldsviks museum och konsthall, Apotekshuset – konst och kultur i Sollefteå, Kramfors Konsthall, Västernorrlands museum, Härnösands konsthall, Konsthallen i Ånge, Sundsvalls museum och på en ännu inte bestämd plats i Timrå. Första platsen Örnsköldsviks museum öppnar den 21 maj och därefter sker vernissagen vid olika datum. Se respektive platser eller på Konstfrämjandets hemsida. Läs mer om bakgrunden till Triennalen.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Bild: Nina Svensson, <em>Dom ska vara glada att det inte blev W</em>, 2019, Ulla Carin Winter, <em>Utsikt IV: Vindlek I, </em>stillbild från video, 2021</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Triennalen stöds av Postkodstiftelsen och är ett är ett samarbete mellan Konstfrämjandet Västernorrland, Västernorrlands museum och Konstkonsulentverksamheten i Region Västernorrland.</p>\n<p class=\"blank\">&nbsp;</p>\n<div style=\"width: 640px;\" class=\"wp-video\"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->\n<video class=\"wp-video-shortcode\" id=\"video-54-1\" width=\"640\" height=\"394\" preload=\"metadata\" controls=\"controls\"><source type=\"video/mp4\" src=\"http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/Wave-video1_3.mp4?_=1\" /><a href=\"http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/Wave-video1_3.mp4\">http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/Wave-video1_3.mp4</a></video></div>\n<p class=\"blank\">&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 117,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Åtta män och tjugofem kvinnor. Det blev resultatet när curatorn för Triennalen, Björn Norberg gjort sitt urval av konstnärer som kommer att medverka i regionen genom tiderna största konstevenemang. Triennalens första öppning äger rum den 21 maj och kommer att presentera verk i en mängd olika material och tekniker – alla med anknytning till regionen. <br />\r\n",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about/54"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about/117"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=54"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "date": "2022-02-15T11:15:42",
+    "date_gmt": "2022-02-15T10:15:42",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-about&#038;p=19"
+    },
+    "modified": "2022-06-29T12:34:28",
+    "modified_gmt": "2022-06-29T10:34:28",
+    "slug": "english-summary",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://triennalen.konstframjandet.se/om/english-summary/",
+    "title": {
+      "rendered": "English summary"
+    },
+    "content": {
+      "rendered": "<p><span style=\"font-weight: 400\">The exhibition curator Björn Norberg has chosen </span><i><span style=\"font-weight: 400\">Wind </span></i><span style=\"font-weight: 400\">as the Triennial theme. </span><span style=\"font-weight: 400\">This theme is open to many different interpretations and creates a broad potential for artists to interpret and design within the framework of the exhibitions.</span></p>\n<p class=\"blank\">&nbsp;</p>\n<p><span style=\"font-weight: 400\">The Triennial features 33 artists in all the regional municipalities and art spaces. They represent a diversity of voices and styles, together giving a picture of contemporary dialogues and the world we live in.<br />\nAll the artists featured in this exhibition have links to Västernorrland, as the regional nature of many of their works reveals.</span></p>\n<p><a href=\"http://triennalen.konstframjandet.se/?post_type=kf-about&amp;p=285&amp;preview=true\"><span style=\"font-weight: 400\">Read the 2022 curatorial theme.</span></a></p>\n<p class=\"blank\">&nbsp;</p>\n<p><span style=\"font-weight: 400\">Konstfrämjandet Västernorrland is a non-profit organisation that seeks to make contemporary art accessible and promote the role of art and artists in society. The Västernorrland district of Konstfrämjandet was launched in 2021 and is now organising the first Triennial in Västernorrland, and the concept holds an inherent commitment to future major art initiatives in the region every three years. </span></p>\n<p><a href=\"http://triennalen.konstframjandet.se/?post_type=kf-about&amp;p=286&amp;preview=true\">Read more about Konstfrämjandet.</a></p>\n<p class=\"blank\">&nbsp;</p>\n<p><i><span style=\"font-weight: 400\">The first Triennial in Västernorrland was made possible with funding from the Swedish Postcode Foundation and is organised by Konstfrämjandet Västernorrland in collaboration with Västernorrlands Museum, Apotekshuset Konst och Kultur Sollefteå, Härnösands Konsthall, Kramfors Konsthall, Sundsvalls Museum, Timrå Municipality, Ånge Konsthall, Örnsköldsviks Museum och Konsthall and Region Västernorrland.</span></i></p>\n<p class=\"blank\">&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 10,
+    "template": "",
+    "acf": {
+      "intro": "Triennialen is a recurring art event focusing on contemporary art related to Västernorrland.<br />\r\n",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about/19"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=19"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "date": "2022-02-09T09:31:39",
+    "date_gmt": "2022-02-09T08:31:39",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-about&#038;p=16"
+    },
+    "modified": "2022-05-12T18:59:53",
+    "modified_gmt": "2022-05-12T16:59:53",
+    "slug": "om-oss",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://triennalen.konstframjandet.se/om/om-oss/",
+    "title": {
+      "rendered": "Om Triennalen"
+    },
+    "content": {
+      "rendered": "<p><i><span style=\"font-weight: 400\">Y-salongen, som lockat konstälskare i över fyrtio år, har varit ett av de större konstevenemangen i Västernorrland. I samarbete med Konstfrämjandet tas nu nästa steg och fler rum kommer att aktiveras och involveras i den nya Triennalen på och i nära samarbete med bland annat Sundsvalls museum, Härnösands konsthall, Kramfors konsthall, Apotekshuset i Sollefteå, Örnsköldsviks museum samt som tidigare Västernorrlands museum.</span></i></p>\n<p class=\"blank\">&nbsp;</p>\n<p>Triennalen  kommer att pågå på olika platser i Västernorrland mellan maj 2022 – september 2022 med första invigning på Västernorrlands museum den 21 maj.<br />\nCurator: Björn Norberg</p>\n<div id=\"attachment_161\" style=\"width: 2556px\" class=\"wp-caption alignnone\"><img aria-describedby=\"caption-attachment-161\" loading=\"lazy\" class=\"wp-image-161 size-full\" src=\"http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Cecilia-Cissi-Hultman-Symmetrical-Fall-on-Top-of-It-All-video.jpg\" alt=\"\" width=\"2546\" height=\"1440\" srcset=\"http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Cecilia-Cissi-Hultman-Symmetrical-Fall-on-Top-of-It-All-video.jpg 2546w, http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Cecilia-Cissi-Hultman-Symmetrical-Fall-on-Top-of-It-All-video-300x170.jpg 300w, http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Cecilia-Cissi-Hultman-Symmetrical-Fall-on-Top-of-It-All-video-1024x579.jpg 1024w, http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Cecilia-Cissi-Hultman-Symmetrical-Fall-on-Top-of-It-All-video-768x434.jpg 768w, http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Cecilia-Cissi-Hultman-Symmetrical-Fall-on-Top-of-It-All-video-1536x869.jpg 1536w, http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Cecilia-Cissi-Hultman-Symmetrical-Fall-on-Top-of-It-All-video-2048x1158.jpg 2048w, http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Cecilia-Cissi-Hultman-Symmetrical-Fall-on-Top-of-It-All-video-2x1.jpg 2w\" sizes=\"(max-width: 2546px) 100vw, 2546px\" /><p id=\"caption-attachment-161\" class=\"wp-caption-text\">Cecilia Hultman, Symmetrical Fall on Top of It All, 2021, Video (loop)</p></div>\n<p><i><span style=\"font-weight: 400\">I samband med arbetet med Triennalen startar Folkrörelsernas Konstfrämjande ett nytt distrikt för Västernorrland, Konstfrämjandet Västernorrland. Triennalen är ett samarbete mellan Västernorrlands Museum, Region Västernorrland och Konstfrämjandet Västernorrland.</span></i></p>\n<p class=\"blank\">&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Triennalen är en återkommande konsthändelse, en utveckling av det som tidigare varit känt som Y-salong. Den stora nyheten är att själva utställningen expanderar till att äga rum på fler platser runt om i hela länet i samarbete med Konstfrämjandet Västernorrland.",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about/16"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=16"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]
