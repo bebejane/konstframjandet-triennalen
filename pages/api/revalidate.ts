@@ -33,8 +33,8 @@ export default withRevalidate(async (record, revalidate) => {
       paths.push(`/platser/${slug}`)
       break;
     case 'exhibition':
-      paths.push('/utstallningar-och-projekt')
-      paths.push(`/utstallningar-och-projekt/${slug}`)
+      paths.push('/utstallningar')
+      paths.push(`/utstallningar/${slug}`)
       break;
     case 'partner':
       paths.push('/partners')

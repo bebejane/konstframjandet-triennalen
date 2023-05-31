@@ -7,14 +7,12 @@ import { locales } from '/lib/i18n'
 const base: Menu = [
   { id: 'home', label: 'Hem', slug: '/', general: true },
   { id: 'news', label: 'Nyheter', slug: '/nyheter', general: true },
-  { id: 'exhibitions', label: 'Utställningar & projekt', slug: '/utstallningar-och-projekt' },
+  { id: 'exhibitions', label: 'Utställningar', slug: '/utstallningar' },
   { id: 'program', label: 'Program', slug: '/program' },
-  { id: 'participants', label: 'Medverkande', slug: '/medverkande' },
-  { id: 'partners', label: 'Partners', slug: '/partners', general: false },
+  { id: 'participants', label: 'Konstnärer', slug: '/medverkande' },
   { id: 'locations', label: 'Platser', slug: '/platser', general: false },
   { id: 'about', label: 'Om', slug: '/om', virtual: true, sub: [] },
   { id: 'contact', label: 'Kontakt', slug: '/kontakt', general: true },
-  //{ id: 'archive', label: 'Arkiv', slug: '/arkiv', general: true, sub: [] },
   { id: 'search', label: 'Sök', slug: '/sok', general: true }
 ]
 

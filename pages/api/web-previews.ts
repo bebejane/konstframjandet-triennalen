@@ -31,10 +31,10 @@ export default withWebPreviewsEdge(async ({ item, itemType }) => {
       path = `/platser/${slug}`
       break;
     case 'exhibition':
-      path = `/utstallningar-och-projekt/${slug}`
+      path = `/utstallningar/${slug}`
       break;
     case 'exhibition':
-      path = `/utstallningar-och-projekt/${slug}`
+      path = `/utstallningar/${slug}`
       break;
     case 'partner':
       path = `/partners/${slug}`

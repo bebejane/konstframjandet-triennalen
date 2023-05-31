@@ -1,2 +1,2 @@
-export { default, getStaticProps } from '/pages/utstallningar-och-projekt'
+export { default, getStaticProps } from '../../utstallningar'
 export { getStaticPaths } from '../'
