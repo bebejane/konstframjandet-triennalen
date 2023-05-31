@@ -73,7 +73,7 @@
 
       > li > a {
         font-weight: bold;
-        color: var(--white);
+        color: var(--black);
       }
     }
 
@@ -103,7 +103,7 @@
 
       &.active {
         a {
-          color: var(--black) !important;
+          color: var(--red) !important;
         }
       }
 
