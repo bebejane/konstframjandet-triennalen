@@ -4168,7 +4168,7 @@ type StartProgramRecord_seoMetaTagsArgs = {
   locale?: InputMaybe<SiteLocale>;
 };
 
-/** Block of type Slumpade medverkande (start_random_participant) */
+/** Block of type Slumpade konstnarer (start_random_participant) */
 type StartRandomParticipantRecord = RecordInterface & {
   __typename?: 'StartRandomParticipantRecord';
   _createdAt: Scalars['DateTime'];
@@ -4187,7 +4187,7 @@ type StartRandomParticipantRecord = RecordInterface & {
 };
 
 
-/** Block of type Slumpade medverkande (start_random_participant) */
+/** Block of type Slumpade konstnarer (start_random_participant) */
 type StartRandomParticipantRecord_seoMetaTagsArgs = {
   locale?: InputMaybe<SiteLocale>;
 };

@@ -5,7 +5,7 @@
 		"program": "Program",
 		"exhibitions": "Utställningar & projekt",
 		"partners": "Partners",
-		"participants": "Medverkande",
+		"participants": "Konstnärer",
 		"locations": "Platser",
 		"news": "Nyheter",
 		"contact": "Kontakt",
@@ -29,7 +29,7 @@
 		"showAll": "Visa alla",
 		"showAllPrograms": "Visa hela programmet",
 		"showAllExhibitons": "Visa alla utställningar",
-		"showAllParticipants": "Visa alla medverkande",
+		"showAllParticipants": "Visa alla konstnärer",
 		"showAllLocations": "Visa alla platser",
 		"showAllNews": "Visa alla nyheter",
 		"showAllPartners": "Visa alla partners"

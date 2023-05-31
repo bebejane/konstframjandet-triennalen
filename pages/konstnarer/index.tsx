@@ -26,7 +26,7 @@ export default function Participant({ participants }: Props) {
               image={image}
               intro={intro}
               titleRows={1}
-              slug={`/medverkande/${slug}`}
+              slug={`/konstnarer/${slug}`}
             />
           </Card>
         )}

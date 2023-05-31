@@ -22,7 +22,7 @@ export default withWebPreviewsEdge(async ({ item, itemType }) => {
       path = `/program/${slug}`
       break;
     case 'participant':
-      path = `/medverkande/${slug}`
+      path = `/konstnarer/${slug}`
       break;
     case 'news':
       path = `/nyheter/${slug}`

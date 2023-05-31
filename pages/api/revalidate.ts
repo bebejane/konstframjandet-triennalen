@@ -21,8 +21,8 @@ export default withRevalidate(async (record, revalidate) => {
       paths.push(`/program/${slug}`)
       break;
     case 'participant':
-      paths.push('/medverkande')
-      paths.push(`/medverkande/${slug}`)
+      paths.push('/konstnarer')
+      paths.push(`/konstnarer/${slug}`)
       break;
     case 'news':
       paths.push('/nyheter')

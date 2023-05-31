@@ -19,7 +19,7 @@ export default function StartRandomParticipant({ data: { participants } }: Props
         <span></span>
 
         <h2>{t('Menu.participants')}</h2>
-        <Link href={'/medverkande'} className="small">
+        <Link href={'/konstnarer'} className="small">
           {t('General.showAll')}
         </Link>
       </header>
@@ -30,7 +30,7 @@ export default function StartRandomParticipant({ data: { participants } }: Props
               image={image}
               title={name}
               intro={intro}
-              slug={`/${year.title}/medverkande/${slug}`}
+              slug={`/${year.title}/konstnarer/${slug}`}
               transformHref={false}
               titleLength={50}
               titleRows={1}
