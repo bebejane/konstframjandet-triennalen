@@ -25,11 +25,6 @@ export default function Layout({ children, menu: menuFromProps, footer, title }:
 		buildMenu(router.locale).then(res => setMenu(res)).catch(err => console.error(err))
 	}, [router.locale])
 
-	useEffect(() => {
-		document.body.style.backgroundColor = year?.isArchive || section === 'archive' ? 'var(--archive)' : 'var(--white)'
-	}, [router.asPath, year, section])
-
-
 	if (!menuFromProps || !footer) return null
 
 	return (
