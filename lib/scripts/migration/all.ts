@@ -1,7 +1,6 @@
 import { migrateAbout } from "./abouts.js";
-import { migrateNews } from "./news.js";
+import { migrateArtists } from "./artists.js";
 import { migrateProjects } from "./projects.js";
-import { allDistricts } from "./";
 
 const migrateAll = async () => {
   const subdomains = (await allDistricts()).map(d => d.subdomain)

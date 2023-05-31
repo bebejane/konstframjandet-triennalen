@@ -1,0 +1,1423 @@
+[
+  {
+    "id": 322,
+    "date": "2023-04-25T13:11:00",
+    "date_gmt": "2023-04-25T11:11:00",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-place&#038;p=322"
+    },
+    "modified": "2023-04-25T13:11:00",
+    "modified_gmt": "2023-04-25T11:11:00",
+    "slug": "norrmesunda-bygdegard",
+    "status": "publish",
+    "type": "kf-place",
+    "link": "http://triennalen.konstframjandet.se/platser/norrmesunda-bygdegard/",
+    "title": {
+      "rendered": "Norrmesunda Bygdegård"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "acf": {
+      "excerpt": "",
+      "show_gallery": false,
+      "text": "",
+      "videos": false,
+      "movie_on_top": false,
+      "street": "Gottne 130",
+      "city": "895 95 Mellansel",
+      "phone": "",
+      "url": "",
+      "more": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place/322"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-place"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=322"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 321,
+    "date": "2023-04-25T13:04:56",
+    "date_gmt": "2023-04-25T11:04:56",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-place&#038;p=321"
+    },
+    "modified": "2023-04-25T13:04:56",
+    "modified_gmt": "2023-04-25T11:04:56",
+    "slug": "norrflarke-bygdegard",
+    "status": "publish",
+    "type": "kf-place",
+    "link": "http://triennalen.konstframjandet.se/platser/norrflarke-bygdegard/",
+    "title": {
+      "rendered": "Norrflärke bygdegård"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "template": "",
+    "acf": {
+      "excerpt": "",
+      "show_gallery": false,
+      "text": "",
+      "videos": false,
+      "movie_on_top": false,
+      "street": "Norrflärke 186",
+      "city": "895 93 Bredbyn",
+      "phone": "",
+      "url": "https://bygdegardarna.se/kubbe-norrflarke/hitta-hit/",
+      "more": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place/321"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-place"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=321"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 319,
+    "date": "2023-04-25T12:51:27",
+    "date_gmt": "2023-04-25T10:51:27",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-place&#038;p=319"
+    },
+    "modified": "2023-04-25T12:51:27",
+    "modified_gmt": "2023-04-25T10:51:27",
+    "slug": "anundsjorundan",
+    "status": "publish",
+    "type": "kf-place",
+    "link": "http://triennalen.konstframjandet.se/platser/anundsjorundan/",
+    "title": {
+      "rendered": "Anundsjörundan"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 318,
+    "template": "",
+    "acf": {
+      "excerpt": "Ingvar Sjöberg och Jenny Lundgren på Norrmesunda Bygdegård.\r\nAnnikka Kronlid Arvidsson och Elin Kristoffersson på Norrflärke bygdegård.\r\nÖppet kl. 11.00 – 17.00.\r\n\r\nElin Kristoffersson framför sitt verk “In silence we hear”, en dans- och ljudperformance kl. 13.00 och 15.0098",
+      "show_gallery": false,
+      "text": "",
+      "videos": false,
+      "movie_on_top": false,
+      "street": "",
+      "city": "",
+      "phone": "",
+      "url": "",
+      "more": " Norrmesunda Bygdegård och Norrflärke bygdegård"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place/319"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-place"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media/318"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=319"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 306,
+    "date": "2022-10-24T21:11:10",
+    "date_gmt": "2022-10-24T19:11:10",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-place&#038;p=306"
+    },
+    "modified": "2022-10-24T23:37:04",
+    "modified_gmt": "2022-10-24T21:37:04",
+    "slug": "bredbyn-anundsjo",
+    "status": "publish",
+    "type": "kf-place",
+    "link": "http://triennalen.konstframjandet.se/platser/bredbyn-anundsjo/",
+    "title": {
+      "rendered": "Bredbyn, Anundsjö"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 308,
+    "template": "",
+    "acf": {
+      "excerpt": "Verket Den röda tråden genom åren, av Ingvar Sjöberg visas som en projektion utomhus vid torget i Bredbyn, Anundsjö. \r\n\r\nInvigning onsdag 2/11 2022, kl 18.00. \r\nVisas fram tom lördag 5/11, kvällstid. \r\nI samarbete med Anundsjö företagarförening och Bygdsam Anundsjö.\r\n",
+      "show_gallery": false,
+      "text": "",
+      "videos": false,
+      "movie_on_top": false,
+      "street": "",
+      "city": "",
+      "phone": "",
+      "url": "",
+      "more": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place/306"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-place"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media/308"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=306"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "date": "2022-02-23T09:58:53",
+    "date_gmt": "2022-02-23T08:58:53",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-place&#038;p=28"
+    },
+    "modified": "2022-05-20T23:09:38",
+    "modified_gmt": "2022-05-20T21:09:38",
+    "slug": "vasternorrlands-museum",
+    "status": "publish",
+    "type": "kf-place",
+    "link": "http://triennalen.konstframjandet.se/platser/vasternorrlands-museum/",
+    "title": {
+      "rendered": "Västernorrlands museum"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 120,
+    "template": "",
+    "acf": {
+      "excerpt": "På Västernorrlands museum visas 13 konstnärer. De representerar en mängd olika röster och uttryck vilka tillsammans skapar en bild av samtidens diskussioner och den värld vi lever i. Säkert finns här också sådant som är oväntat och väcker nya diskussioner om vår tid, vår historia och vår framtid. \r\n\r\n\r\n",
+      "show_gallery": true,
+      "text": "<p>Medverkande konstnärer här på Västernorrlands museum: Birgitta Ricklund, Emma Löfström, Fredrik Nordin, Ida Rödén, Ina Palm, Jenny Berg, Jenny Lundgren, Josefine Östberg Olsson, Linda Lasson, Lisa W Carlson, Margareta Klingberg, Maria Sundström, Sonia Hedstrand.</p>\n",
+      "videos": false,
+      "street": "Murbergsvägen 31",
+      "city": "Härnösand",
+      "phone": "",
+      "url": "https://vnmuseum.se",
+      "more": "Modern museibyggnad med utställningar, butik och restaurang.\r\n",
+      "movie_on_top": false,
+      "gallery": [
+        {
+          "ID": 200,
+          "id": 200,
+          "title": "T 800x Ina",
+          "filename": "T-800x-Ina-scaled.jpg",
+          "filesize": 244692,
+          "url": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T-800x-Ina-scaled.jpg",
+          "link": "http://triennalen.konstframjandet.se/platser/vasternorrlands-museum/t-800x-ina/",
+          "alt": "",
+          "author": "59",
+          "description": "",
+          "caption": "Ina Palm",
+          "name": "t-800x-ina",
+          "status": "inherit",
+          "uploaded_to": 28,
+          "date": "2022-05-12 15:09:52",
+          "modified": "2022-05-12 15:12:54",
+          "menu_order": 0,
+          "mime_type": "image/jpeg",
+          "type": "image",
+          "subtype": "jpeg",
+          "icon": "http://triennalen.konstframjandet.se/wp-includes/images/media/default.png",
+          "width": 2560,
+          "height": 1600,
+          "sizes": {
+            "thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T-800x-Ina-150x150.jpg",
+            "thumbnail-width": 150,
+            "thumbnail-height": 150,
+            "medium": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T-800x-Ina-300x187.jpg",
+            "medium-width": 300,
+            "medium-height": 187,
+            "medium_large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T-800x-Ina-768x480.jpg",
+            "medium_large-width": 640,
+            "medium_large-height": 400,
+            "large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T-800x-Ina-1024x640.jpg",
+            "large-width": 640,
+            "large-height": 400,
+            "1536x1536": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T-800x-Ina-1536x960.jpg",
+            "1536x1536-width": 1536,
+            "1536x1536-height": 960,
+            "2048x2048": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T-800x-Ina-2048x1280.jpg",
+            "2048x2048-width": 2048,
+            "2048x2048-height": 1280,
+            "kf-tip": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T-800x-Ina-480x360.jpg",
+            "kf-tip-width": 480,
+            "kf-tip-height": 360,
+            "kf-startpage": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T-800x-Ina-800x580.jpg",
+            "kf-startpage-width": 800,
+            "kf-startpage-height": 580,
+            "square-large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T-800x-Ina-640x640.jpg",
+            "square-large-width": 640,
+            "square-large-height": 640,
+            "content-image ": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T-800x-Ina-2x1.jpg",
+            "content-image -width": 2,
+            "content-image -height": 1,
+            "post-thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T-800x-Ina-125x125.jpg",
+            "post-thumbnail-width": 125,
+            "post-thumbnail-height": 125
+          }
+        },
+        {
+          "ID": 201,
+          "id": 201,
+          "title": "FB Symbol 800x Lisa",
+          "filename": "FB-Symbol-800x-Lisa-scaled.jpg",
+          "filesize": 1278554,
+          "url": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Lisa-scaled.jpg",
+          "link": "http://triennalen.konstframjandet.se/platser/vasternorrlands-museum/fb-symbol-800x-lisa/",
+          "alt": "",
+          "author": "59",
+          "description": "",
+          "caption": "Lisa W Carlson",
+          "name": "fb-symbol-800x-lisa",
+          "status": "inherit",
+          "uploaded_to": 28,
+          "date": "2022-05-12 15:10:12",
+          "modified": "2022-05-12 15:16:46",
+          "menu_order": 0,
+          "mime_type": "image/jpeg",
+          "type": "image",
+          "subtype": "jpeg",
+          "icon": "http://triennalen.konstframjandet.se/wp-includes/images/media/default.png",
+          "width": 2560,
+          "height": 1600,
+          "sizes": {
+            "thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Lisa-150x150.jpg",
+            "thumbnail-width": 150,
+            "thumbnail-height": 150,
+            "medium": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Lisa-300x187.jpg",
+            "medium-width": 300,
+            "medium-height": 187,
+            "medium_large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Lisa-768x480.jpg",
+            "medium_large-width": 640,
+            "medium_large-height": 400,
+            "large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Lisa-1024x640.jpg",
+            "large-width": 640,
+            "large-height": 400,
+            "1536x1536": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Lisa-1536x960.jpg",
+            "1536x1536-width": 1536,
+            "1536x1536-height": 960,
+            "2048x2048": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Lisa-2048x1280.jpg",
+            "2048x2048-width": 2048,
+            "2048x2048-height": 1280,
+            "kf-tip": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Lisa-480x360.jpg",
+            "kf-tip-width": 480,
+            "kf-tip-height": 360,
+            "kf-startpage": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Lisa-800x580.jpg",
+            "kf-startpage-width": 800,
+            "kf-startpage-height": 580,
+            "square-large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Lisa-640x640.jpg",
+            "square-large-width": 640,
+            "square-large-height": 640,
+            "content-image ": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Lisa-2x1.jpg",
+            "content-image -width": 2,
+            "content-image -height": 1,
+            "post-thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Lisa-125x125.jpg",
+            "post-thumbnail-width": 125,
+            "post-thumbnail-height": 125
+          }
+        },
+        {
+          "ID": 202,
+          "id": 202,
+          "title": "FB Symbol 800x Klingberg",
+          "filename": "FB-Symbol-800x-Klingberg-scaled.jpg",
+          "filesize": 457632,
+          "url": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Klingberg-scaled.jpg",
+          "link": "http://triennalen.konstframjandet.se/platser/vasternorrlands-museum/fb-symbol-800x-klingberg/",
+          "alt": "",
+          "author": "59",
+          "description": "",
+          "caption": "Margareta Klingberg",
+          "name": "fb-symbol-800x-klingberg",
+          "status": "inherit",
+          "uploaded_to": 28,
+          "date": "2022-05-12 15:10:29",
+          "modified": "2022-05-12 15:12:30",
+          "menu_order": 0,
+          "mime_type": "image/jpeg",
+          "type": "image",
+          "subtype": "jpeg",
+          "icon": "http://triennalen.konstframjandet.se/wp-includes/images/media/default.png",
+          "width": 2560,
+          "height": 1600,
+          "sizes": {
+            "thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Klingberg-150x150.jpg",
+            "thumbnail-width": 150,
+            "thumbnail-height": 150,
+            "medium": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Klingberg-300x187.jpg",
+            "medium-width": 300,
+            "medium-height": 187,
+            "medium_large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Klingberg-768x480.jpg",
+            "medium_large-width": 640,
+            "medium_large-height": 400,
+            "large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Klingberg-1024x640.jpg",
+            "large-width": 640,
+            "large-height": 400,
+            "1536x1536": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Klingberg-1536x960.jpg",
+            "1536x1536-width": 1536,
+            "1536x1536-height": 960,
+            "2048x2048": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Klingberg-2048x1280.jpg",
+            "2048x2048-width": 2048,
+            "2048x2048-height": 1280,
+            "kf-tip": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Klingberg-480x360.jpg",
+            "kf-tip-width": 480,
+            "kf-tip-height": 360,
+            "kf-startpage": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Klingberg-800x580.jpg",
+            "kf-startpage-width": 800,
+            "kf-startpage-height": 580,
+            "square-large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Klingberg-640x640.jpg",
+            "square-large-width": 640,
+            "square-large-height": 640,
+            "content-image ": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Klingberg-2x1.jpg",
+            "content-image -width": 2,
+            "content-image -height": 1,
+            "post-thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-Symbol-800x-Klingberg-125x125.jpg",
+            "post-thumbnail-width": 125,
+            "post-thumbnail-height": 125
+          }
+        },
+        {
+          "ID": 203,
+          "id": 203,
+          "title": "FB VNM 820 x 312",
+          "filename": "FB-VNM-820-x-312-.png",
+          "filesize": 511740,
+          "url": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-VNM-820-x-312-.png",
+          "link": "http://triennalen.konstframjandet.se/platser/vasternorrlands-museum/fb-vnm-820-x-312/",
+          "alt": "",
+          "author": "59",
+          "description": "",
+          "caption": "Ina Palm",
+          "name": "fb-vnm-820-x-312",
+          "status": "inherit",
+          "uploaded_to": 28,
+          "date": "2022-05-12 15:10:47",
+          "modified": "2022-05-12 15:13:04",
+          "menu_order": 0,
+          "mime_type": "image/png",
+          "type": "image",
+          "subtype": "png",
+          "icon": "http://triennalen.konstframjandet.se/wp-includes/images/media/default.png",
+          "width": 3417,
+          "height": 1300,
+          "sizes": {
+            "thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-VNM-820-x-312--150x150.png",
+            "thumbnail-width": 150,
+            "thumbnail-height": 150,
+            "medium": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-VNM-820-x-312--300x114.png",
+            "medium-width": 300,
+            "medium-height": 114,
+            "medium_large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-VNM-820-x-312--768x292.png",
+            "medium_large-width": 640,
+            "medium_large-height": 243,
+            "large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-VNM-820-x-312--1024x390.png",
+            "large-width": 640,
+            "large-height": 244,
+            "1536x1536": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-VNM-820-x-312--1536x584.png",
+            "1536x1536-width": 1536,
+            "1536x1536-height": 584,
+            "2048x2048": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-VNM-820-x-312--2048x779.png",
+            "2048x2048-width": 2048,
+            "2048x2048-height": 779,
+            "kf-tip": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-VNM-820-x-312--480x360.png",
+            "kf-tip-width": 480,
+            "kf-tip-height": 360,
+            "kf-startpage": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-VNM-820-x-312--800x580.png",
+            "kf-startpage-width": 800,
+            "kf-startpage-height": 580,
+            "square-large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-VNM-820-x-312--640x640.png",
+            "square-large-width": 640,
+            "square-large-height": 640,
+            "content-image ": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-VNM-820-x-312--3x1.png",
+            "content-image -width": 3,
+            "content-image -height": 1,
+            "post-thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/FB-VNM-820-x-312--125x125.png",
+            "post-thumbnail-width": 125,
+            "post-thumbnail-height": 125
+          }
+        },
+        {
+          "ID": 204,
+          "id": 204,
+          "title": "T_IdaRöden",
+          "filename": "T_IdaRöden.png",
+          "filesize": 1878230,
+          "url": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_IdaRöden.png",
+          "link": "http://triennalen.konstframjandet.se/platser/vasternorrlands-museum/t_idaro%cc%88den/",
+          "alt": "",
+          "author": "59",
+          "description": "",
+          "caption": "Ida Rödén",
+          "name": "t_idaro%cc%88den",
+          "status": "inherit",
+          "uploaded_to": 28,
+          "date": "2022-05-12 15:11:20",
+          "modified": "2022-05-12 15:12:17",
+          "menu_order": 0,
+          "mime_type": "image/png",
+          "type": "image",
+          "subtype": "png",
+          "icon": "http://triennalen.konstframjandet.se/wp-includes/images/media/default.png",
+          "width": 1080,
+          "height": 1080,
+          "sizes": {
+            "thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_IdaRöden-150x150.png",
+            "thumbnail-width": 150,
+            "thumbnail-height": 150,
+            "medium": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_IdaRöden-300x300.png",
+            "medium-width": 300,
+            "medium-height": 300,
+            "medium_large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_IdaRöden-768x768.png",
+            "medium_large-width": 640,
+            "medium_large-height": 640,
+            "large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_IdaRöden-1024x1024.png",
+            "large-width": 640,
+            "large-height": 640,
+            "1536x1536": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_IdaRöden.png",
+            "1536x1536-width": 1080,
+            "1536x1536-height": 1080,
+            "2048x2048": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_IdaRöden.png",
+            "2048x2048-width": 1080,
+            "2048x2048-height": 1080,
+            "kf-tip": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_IdaRöden-480x360.png",
+            "kf-tip-width": 480,
+            "kf-tip-height": 360,
+            "kf-startpage": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_IdaRöden-800x580.png",
+            "kf-startpage-width": 800,
+            "kf-startpage-height": 580,
+            "square-large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_IdaRöden-640x640.png",
+            "square-large-width": 640,
+            "square-large-height": 640,
+            "content-image ": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_IdaRöden-1x1.png",
+            "content-image -width": 1,
+            "content-image -height": 1,
+            "post-thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_IdaRöden-125x125.png",
+            "post-thumbnail-width": 125,
+            "post-thumbnail-height": 125
+          }
+        },
+        {
+          "ID": 205,
+          "id": 205,
+          "title": "T_LisaWCarlson",
+          "filename": "T_LisaWCarlson.png",
+          "filesize": 2387476,
+          "url": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_LisaWCarlson.png",
+          "link": "http://triennalen.konstframjandet.se/platser/vasternorrlands-museum/t_lisawcarlson/",
+          "alt": "",
+          "author": "59",
+          "description": "",
+          "caption": "Lisa W Carlson",
+          "name": "t_lisawcarlson",
+          "status": "inherit",
+          "uploaded_to": 28,
+          "date": "2022-05-12 15:11:31",
+          "modified": "2022-05-12 15:11:53",
+          "menu_order": 0,
+          "mime_type": "image/png",
+          "type": "image",
+          "subtype": "png",
+          "icon": "http://triennalen.konstframjandet.se/wp-includes/images/media/default.png",
+          "width": 1080,
+          "height": 1080,
+          "sizes": {
+            "thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_LisaWCarlson-150x150.png",
+            "thumbnail-width": 150,
+            "thumbnail-height": 150,
+            "medium": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_LisaWCarlson-300x300.png",
+            "medium-width": 300,
+            "medium-height": 300,
+            "medium_large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_LisaWCarlson-768x768.png",
+            "medium_large-width": 640,
+            "medium_large-height": 640,
+            "large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_LisaWCarlson-1024x1024.png",
+            "large-width": 640,
+            "large-height": 640,
+            "1536x1536": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_LisaWCarlson.png",
+            "1536x1536-width": 1080,
+            "1536x1536-height": 1080,
+            "2048x2048": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_LisaWCarlson.png",
+            "2048x2048-width": 1080,
+            "2048x2048-height": 1080,
+            "kf-tip": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_LisaWCarlson-480x360.png",
+            "kf-tip-width": 480,
+            "kf-tip-height": 360,
+            "kf-startpage": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_LisaWCarlson-800x580.png",
+            "kf-startpage-width": 800,
+            "kf-startpage-height": 580,
+            "square-large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_LisaWCarlson-640x640.png",
+            "square-large-width": 640,
+            "square-large-height": 640,
+            "content-image ": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_LisaWCarlson-1x1.png",
+            "content-image -width": 1,
+            "content-image -height": 1,
+            "post-thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/02/T_LisaWCarlson-125x125.png",
+            "post-thumbnail-width": 125,
+            "post-thumbnail-height": 125
+          }
+        },
+        {
+          "ID": 198,
+          "id": 198,
+          "title": "Maria Sundström",
+          "filename": "Maria-Sundstrom-scaled.jpg",
+          "filesize": 1223142,
+          "url": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Maria-Sundstrom-scaled.jpg",
+          "link": "http://triennalen.konstframjandet.se/konstnarer/maria-sundstrom/maria-sundstrom-2/",
+          "alt": "",
+          "author": "59",
+          "description": "Maria Sundström",
+          "caption": "Maria Sundström",
+          "name": "maria-sundstrom-2",
+          "status": "inherit",
+          "uploaded_to": 89,
+          "date": "2022-05-05 09:50:58",
+          "modified": "2022-05-12 15:13:13",
+          "menu_order": 0,
+          "mime_type": "image/jpeg",
+          "type": "image",
+          "subtype": "jpeg",
+          "icon": "http://triennalen.konstframjandet.se/wp-includes/images/media/default.png",
+          "width": 2560,
+          "height": 1916,
+          "sizes": {
+            "thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Maria-Sundstrom-150x150.jpg",
+            "thumbnail-width": 150,
+            "thumbnail-height": 150,
+            "medium": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Maria-Sundstrom-300x224.jpg",
+            "medium-width": 300,
+            "medium-height": 224,
+            "medium_large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Maria-Sundstrom-768x575.jpg",
+            "medium_large-width": 640,
+            "medium_large-height": 479,
+            "large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Maria-Sundstrom-1024x766.jpg",
+            "large-width": 640,
+            "large-height": 479,
+            "1536x1536": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Maria-Sundstrom-1536x1149.jpg",
+            "1536x1536-width": 1536,
+            "1536x1536-height": 1149,
+            "2048x2048": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Maria-Sundstrom-2048x1532.jpg",
+            "2048x2048-width": 2048,
+            "2048x2048-height": 1532,
+            "kf-tip": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Maria-Sundstrom-480x360.jpg",
+            "kf-tip-width": 480,
+            "kf-tip-height": 360,
+            "kf-startpage": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Maria-Sundstrom-800x580.jpg",
+            "kf-startpage-width": 800,
+            "kf-startpage-height": 580,
+            "square-large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Maria-Sundstrom-640x640.jpg",
+            "square-large-width": 640,
+            "square-large-height": 640,
+            "content-image ": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Maria-Sundstrom-1x1.jpg",
+            "content-image -width": 1,
+            "content-image -height": 1,
+            "post-thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Maria-Sundstrom-125x125.jpg",
+            "post-thumbnail-width": 125,
+            "post-thumbnail-height": 125
+          }
+        }
+      ]
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place/28"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-place"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media/120"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=28"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "date": "2022-02-23T09:57:07",
+    "date_gmt": "2022-02-23T08:57:07",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-place&#038;p=27"
+    },
+    "modified": "2022-03-29T10:50:39",
+    "modified_gmt": "2022-03-29T08:50:39",
+    "slug": "timra",
+    "status": "publish",
+    "type": "kf-place",
+    "link": "http://triennalen.konstframjandet.se/platser/timra/",
+    "title": {
+      "rendered": "Timrå"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 57,
+    "template": "",
+    "acf": {
+      "excerpt": "Vid Inlandsälvens delta står landsmärket Y:et.",
+      "show_gallery": false,
+      "text": "<p>Y är Västernorrlands länsbokstav och vid E4:an i Timrå kommun står ett landmärke i form av en enorm skulptur.<br />\nKonstnären Bengt Lindströms skulptur Y:et invigdes 1995 och är drygt 30 meter hög.<br />\nSkulpturen har sedan dess alltid varit diskuterad, ifrågasatt och älskad.<br />\nUtveckling av området kring Y:et drivs av både föreningar och kommun.</p>\n",
+      "videos": false,
+      "street": "Lövuddsvägen, Skeppsholmen, 861 41 Sörberge",
+      "city": "Timrå",
+      "phone": "",
+      "url": "https://www.timra.se/upplevagora/upptackomradetkringyet.4.4a38de05171a8a1461219e3.html",
+      "more": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place/27"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-place"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media/57"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=27"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "date": "2022-02-23T09:56:51",
+    "date_gmt": "2022-02-23T08:56:51",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-place&#038;p=26"
+    },
+    "modified": "2022-04-28T11:42:57",
+    "modified_gmt": "2022-04-28T09:42:57",
+    "slug": "sundsvall",
+    "status": "publish",
+    "type": "kf-place",
+    "link": "http://triennalen.konstframjandet.se/platser/sundsvall/",
+    "title": {
+      "rendered": "Sundsvalls museum"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 101,
+    "template": "",
+    "acf": {
+      "excerpt": "Sundsvalls museum är delaktig i Triennalen med ett dansperformance med Elin Kristoffersson den 11 juni klockan 13.00",
+      "show_gallery": false,
+      "text": "<p><span style=\"font-weight: 400\">Sundsvalls museums samlingar omfattar fynd från gravfältet i Högom, föremål från skogsindustrin och stadens historia samt svensk samtidskonst.</span></p>\n<p class=\"blank\">\n",
+      "videos": false,
+      "street": "Kulturmagasinet",
+      "city": "Sundsvall",
+      "phone": "",
+      "url": "https://sundsvall.se/2022/03/17/triennalen-kommer-till-sundsvall-i-juni/?parent=3713",
+      "more": "",
+      "movie_on_top": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place/26"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-place"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media/101"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=26"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "date": "2022-02-23T09:56:35",
+    "date_gmt": "2022-02-23T08:56:35",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-place&#038;p=25"
+    },
+    "modified": "2022-05-24T20:25:46",
+    "modified_gmt": "2022-05-24T18:25:46",
+    "slug": "solleftea",
+    "status": "publish",
+    "type": "kf-place",
+    "link": "http://triennalen.konstframjandet.se/platser/solleftea/",
+    "title": {
+      "rendered": "Apotekshuset konst och kultur, Sollefteå"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 105,
+    "template": "",
+    "acf": {
+      "excerpt": "Apotekshuset - konst och kultur visar utställningar i en mängd olika uttryck och fungerar som en samlingspunkt och kulturell arena. Apotekshuset genomför olika evenemang, driver en bildverkstad för pedagogisk verksamhet och bjuder in till workshops och \"prova på\" kvällar. De finns på Storgatan 59 i centrala Sollefteå.",
+      "show_gallery": false,
+      "text": "",
+      "videos": false,
+      "street": "Storgatan 59",
+      "city": "Sollefteå",
+      "phone": "",
+      "url": "https://www.solleftea.se/uppleva--gora/kultur/apotekshuset-konst--kultur",
+      "more": "Sju konstnärer ställer under Triennalen ut på Apotekshuset i Sollefteå, fler av dem med stark konstnärlig koppling till norra Sverige.\r\n",
+      "movie_on_top": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place/25"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-place"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media/105"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=25"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "date": "2022-02-23T09:56:07",
+    "date_gmt": "2022-02-23T08:56:07",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-place&#038;p=24"
+    },
+    "modified": "2022-05-24T20:26:35",
+    "modified_gmt": "2022-05-24T18:26:35",
+    "slug": "ange",
+    "status": "publish",
+    "type": "kf-place",
+    "link": "http://triennalen.konstframjandet.se/platser/ange/",
+    "title": {
+      "rendered": "Ånge konsthall"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 167,
+    "template": "",
+    "acf": {
+      "excerpt": "Konsthallen i Ånge är en del av biblioteket som finns i centralstationen. \r\n\r\n",
+      "show_gallery": true,
+      "text": "",
+      "videos": false,
+      "street": "Järnvägsgatan 3",
+      "city": "Ånge",
+      "phone": "",
+      "url": "https://www.ange.se/uppleva-och-gora/bibliotek/konsthall.html",
+      "more": "",
+      "movie_on_top": false,
+      "gallery": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place/24"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-place"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media/167"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=24"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "date": "2022-02-23T09:55:53",
+    "date_gmt": "2022-02-23T08:55:53",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-place&#038;p=23"
+    },
+    "modified": "2022-05-24T20:27:14",
+    "modified_gmt": "2022-05-24T18:27:14",
+    "slug": "kramfors",
+    "status": "publish",
+    "type": "kf-place",
+    "link": "http://triennalen.konstframjandet.se/platser/kramfors/",
+    "title": {
+      "rendered": "Kramfors konsthall"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 184,
+    "template": "",
+    "acf": {
+      "excerpt": "Konsthallen i Kramfors visar samtidskonst och konsthantverk från yrkesverksamma konstnärer. Konsthallen har som uppdrag att göra samtidskonsten angelägen och tillgänglig och vill visa på den bredd av olika konstformer som finns att uppleva. Genom sin utställningsverksamhet vill konsthallen hålla det offentliga samtalet levande. Konsthallen finns på Biblioteksgatan 8, mitt i centrum.\r\n",
+      "show_gallery": true,
+      "text": "",
+      "videos": false,
+      "street": "Biblioteksgatan 8",
+      "city": "Kramfors",
+      "phone": "",
+      "url": "https://bibliotek.kramfors.se/-/kramfors-bibliot-1",
+      "more": "Samtidskonst och konsthantverk. Kramfors konsthall visar samtidskonst och konsthantverk från yrkesverksamma konstnärer.\r\nKonsthallen har samma ingång som till biblioteket och biografen.",
+      "movie_on_top": false,
+      "gallery": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place/23"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-place"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media/184"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=23"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "date": "2022-02-23T09:55:36",
+    "date_gmt": "2022-02-23T08:55:36",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-place&#038;p=22"
+    },
+    "modified": "2022-05-24T20:28:00",
+    "modified_gmt": "2022-05-24T18:28:00",
+    "slug": "harnosand",
+    "status": "publish",
+    "type": "kf-place",
+    "link": "http://triennalen.konstframjandet.se/platser/harnosand/",
+    "title": {
+      "rendered": "Härnösands konsthall"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 110,
+    "template": "",
+    "acf": {
+      "excerpt": "Härnösands konsthall är ett fönster mot det som händer på dagens konstscen både lokalt och nationellt. Här visas ca 10-14 utställningar per år. Konsthallen erbjuder olika typer av visningar och pedagogisk verksamhet för barn. Härnösands konsthall ligger centralt på stora torget 2 i Härnösand.\r\n\r\n",
+      "show_gallery": false,
+      "text": "<p>Andreas Brännlund, Annikka Kronlid Arvidsson, Cecilia Ömalm, Elin Maria Johansson, Emilia Bergmark, Nina Svensson, Ulla-Carin Winter.</p>\n",
+      "videos": false,
+      "street": "Stora torget 2",
+      "city": "Härnösand",
+      "phone": "",
+      "url": "https://harnosand.se/kultur--fritid/kultur-i-harnosand/harnosands-konsthall.html",
+      "more": "Tisdag - lördag kl. 11:00 - 15:00.\r\n\r\n\r\n\r\n",
+      "movie_on_top": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place/22"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-place"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media/110"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=22"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "date": "2022-02-23T09:54:35",
+    "date_gmt": "2022-02-23T08:54:35",
+    "guid": {
+      "rendered": "http://triennalen.konstframjandet.se/?post_type=kf-place&#038;p=21"
+    },
+    "modified": "2022-04-27T09:56:26",
+    "modified_gmt": "2022-04-27T07:56:26",
+    "slug": "ornskoldsvik",
+    "status": "publish",
+    "type": "kf-place",
+    "link": "http://triennalen.konstframjandet.se/platser/ornskoldsvik/",
+    "title": {
+      "rendered": "Örnsköldsviks museum och konsthall"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 191,
+    "template": "",
+    "acf": {
+      "excerpt": "Konstnärerna Ingvar Sjöberg och Max Book ställer under Triennalen ut på Örnsköldsviks museum och konsthall.\r\n",
+      "show_gallery": false,
+      "text": "",
+      "videos": false,
+      "street": "Läroverksgatan 1",
+      "city": "Örnsköldsvik",
+      "phone": "",
+      "url": "https://www.ornskoldsvik.se/fritid-och-kultur/kultur/ornskoldsviks-museum-och-konsthall",
+      "more": "Filmrum, lek och omfattande samlingar med historiska föremål.\r\nDet finns en shop med hantverk och litteratur från lokala skapare och kafé med hembakat fikabröd.\r\nÖppet: tisdag 11–20, onsdag-lördag 11–16",
+      "movie_on_top": false,
+      "gallery": [
+        {
+          "ID": 192,
+          "id": 192,
+          "title": "Max Book Duka pannrum",
+          "filename": "Max-Book-Duka-pannrum-scaled.jpg",
+          "filesize": 835914,
+          "url": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Max-Book-Duka-pannrum-scaled.jpg",
+          "link": "http://triennalen.konstframjandet.se/konstnarer/max-book/max-book-duka-pannrum/",
+          "alt": "",
+          "author": "59",
+          "description": "",
+          "caption": "",
+          "name": "max-book-duka-pannrum",
+          "status": "inherit",
+          "uploaded_to": 90,
+          "date": "2022-04-26 19:33:55",
+          "modified": "2022-04-26 19:34:22",
+          "menu_order": 0,
+          "mime_type": "image/jpeg",
+          "type": "image",
+          "subtype": "jpeg",
+          "icon": "http://triennalen.konstframjandet.se/wp-includes/images/media/default.png",
+          "width": 2560,
+          "height": 1920,
+          "sizes": {
+            "thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Max-Book-Duka-pannrum-150x150.jpg",
+            "thumbnail-width": 150,
+            "thumbnail-height": 150,
+            "medium": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Max-Book-Duka-pannrum-300x225.jpg",
+            "medium-width": 300,
+            "medium-height": 225,
+            "medium_large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Max-Book-Duka-pannrum-768x576.jpg",
+            "medium_large-width": 640,
+            "medium_large-height": 480,
+            "large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Max-Book-Duka-pannrum-1024x768.jpg",
+            "large-width": 640,
+            "large-height": 480,
+            "1536x1536": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Max-Book-Duka-pannrum-1536x1152.jpg",
+            "1536x1536-width": 1536,
+            "1536x1536-height": 1152,
+            "2048x2048": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Max-Book-Duka-pannrum-2048x1536.jpg",
+            "2048x2048-width": 2048,
+            "2048x2048-height": 1536,
+            "kf-tip": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Max-Book-Duka-pannrum-480x360.jpg",
+            "kf-tip-width": 480,
+            "kf-tip-height": 360,
+            "kf-startpage": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Max-Book-Duka-pannrum-800x580.jpg",
+            "kf-startpage-width": 800,
+            "kf-startpage-height": 580,
+            "square-large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Max-Book-Duka-pannrum-640x640.jpg",
+            "square-large-width": 640,
+            "square-large-height": 640,
+            "content-image ": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Max-Book-Duka-pannrum-1x1.jpg",
+            "content-image -width": 1,
+            "content-image -height": 1,
+            "post-thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Max-Book-Duka-pannrum-125x125.jpg",
+            "post-thumbnail-width": 125,
+            "post-thumbnail-height": 125
+          }
+        },
+        {
+          "ID": 191,
+          "id": 191,
+          "title": "Ingvar Sjöberg Britadigital",
+          "filename": "Ingvar-Sjöberg-Britadigital-scaled.jpg",
+          "filesize": 995910,
+          "url": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Ingvar-Sjöberg-Britadigital-scaled.jpg",
+          "link": "http://triennalen.konstframjandet.se/konstnarer/ingvar-sjoberg/ingvar-sjo%cc%88berg-britadigital/",
+          "alt": "",
+          "author": "59",
+          "description": "",
+          "caption": "",
+          "name": "ingvar-sjo%cc%88berg-britadigital",
+          "status": "inherit",
+          "uploaded_to": 80,
+          "date": "2022-04-26 19:31:45",
+          "modified": "2022-04-26 20:29:41",
+          "menu_order": 0,
+          "mime_type": "image/jpeg",
+          "type": "image",
+          "subtype": "jpeg",
+          "icon": "http://triennalen.konstframjandet.se/wp-includes/images/media/default.png",
+          "width": 2560,
+          "height": 2301,
+          "sizes": {
+            "thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Ingvar-Sjöberg-Britadigital-150x150.jpg",
+            "thumbnail-width": 150,
+            "thumbnail-height": 150,
+            "medium": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Ingvar-Sjöberg-Britadigital-300x270.jpg",
+            "medium-width": 300,
+            "medium-height": 270,
+            "medium_large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Ingvar-Sjöberg-Britadigital-768x690.jpg",
+            "medium_large-width": 640,
+            "medium_large-height": 575,
+            "large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Ingvar-Sjöberg-Britadigital-1024x921.jpg",
+            "large-width": 640,
+            "large-height": 576,
+            "1536x1536": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Ingvar-Sjöberg-Britadigital-1536x1381.jpg",
+            "1536x1536-width": 1536,
+            "1536x1536-height": 1381,
+            "2048x2048": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Ingvar-Sjöberg-Britadigital-2048x1841.jpg",
+            "2048x2048-width": 2048,
+            "2048x2048-height": 1841,
+            "kf-tip": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Ingvar-Sjöberg-Britadigital-480x360.jpg",
+            "kf-tip-width": 480,
+            "kf-tip-height": 360,
+            "kf-startpage": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Ingvar-Sjöberg-Britadigital-800x580.jpg",
+            "kf-startpage-width": 800,
+            "kf-startpage-height": 580,
+            "square-large": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Ingvar-Sjöberg-Britadigital-640x640.jpg",
+            "square-large-width": 640,
+            "square-large-height": 640,
+            "content-image ": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Ingvar-Sjöberg-Britadigital-1x1.jpg",
+            "content-image -width": 1,
+            "content-image -height": 1,
+            "post-thumbnail": "http://triennalen.konstframjandet.se/wp-content/uploads/sites/22/2022/04/Ingvar-Sjöberg-Britadigital-125x125.jpg",
+            "post-thumbnail-width": 125,
+            "post-thumbnail-height": 125
+          }
+        }
+      ]
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place/21"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/kf-place"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/types/kf-place"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media/191"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://triennalen.konstframjandet.se/wp-json/wp/v2/media?parent=21"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

@@ -16,15 +16,16 @@ import getVideoId from 'get-video-id';
 
 export { default as striptags } from 'striptags'
 export { decodeHTMLEntities, ApiError }
-export const DATOCMS_ENVIRONMENT = 'main'
+export const DATOCMS_ENVIRONMENT = 'migration'
 export const client = buildClient({ apiToken: process.env.DATOCMS_API_TOKEN, environment: DATOCMS_ENVIRONMENT, extraHeaders: { 'X-Include-Drafts': 'true' } })
 export const toMarkdown = new NodeHtmlMarkdown()
 export const baseDomain = 'konstframjandet.se/wp-json'
 export const noImage = undefined //{ url: 'https://www.datocms-assets.com/94618/1680937798-no-photo-available.png', title: undefined }
+export const yearId = '121772345';
 
 export const buildWpApi = (subdomain: string | undefined) => {
 
-  subdomain = 'triennalen'
+  //  subdomain = 'triennalen'
 
   console.log(`http://${subdomain ? subdomain + '.' : ''}${baseDomain}`)
   const wpapi = new WPAPI({
@@ -34,10 +35,11 @@ export const buildWpApi = (subdomain: string | undefined) => {
     auth: true
   });
 
-  wpapi.news = wpapi.registerRoute('wp/v2', '/kf-news/(?P<id>)');
-  wpapi.project = wpapi.registerRoute('wp/v2', '/kf-project/(?P<id>)');
+  wpapi.event = wpapi.registerRoute('wp/v2', '/kf-event/(?P<id>)');
+  wpapi.artist = wpapi.registerRoute('wp/v2', '/kf-artist/(?P<id>)');
+  wpapi.location = wpapi.registerRoute('wp/v2', '/kf-place/(?P<id>)');
   wpapi.about = wpapi.registerRoute('wp/v2', '/kf-about/(?P<id>)');
-  wpapi.contact = wpapi.registerRoute('wp/v2', '/kf-contact/(?P<id>)');
+
   wpapi.subdomain = subdomain
   return wpapi
 }
@@ -129,7 +131,7 @@ export const uploadMedia = async (image, tags: string[] = []) => {
     skipCreationIfAlreadyExists: true,
     tags,
     default_field_metadata: {
-      en: {
+      sv: {
         title: image.title || null,
         alt: null,
         custom_data: {}
