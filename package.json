@@ -14,7 +14,15 @@
 		"barrel": "node ./lib/scripts/barrel",
 		"barrel:watch": "watch 'node ./lib/scripts/barrel' ./components",
 		"postbuild": "next-sitemap",
-		"test": "tsx --tsconfig ./tsconfig.json ./lib/scripts/test.tsx"
+		"test": "tsx --tsconfig ./tsconfig.json ./lib/scripts/test.tsx",
+		"migrate:clean": "datocms environments:destroy migration ; datocms environments:fork main migration",
+		"migrate:errors": "tsx ./lib/scripts/migration/errors.ts",
+		"migrate:all": "npm run migrate:clean && tsx ./lib/scripts/migration/all.ts",
+		"migrate:news": "tsx ./lib/scripts/migration/news.ts",
+		"migrate:projects": "tsx ./lib/scripts/migration/projects.ts",
+		"migrate:collaborator": "tsx ./lib/scripts/migration/collaborator.ts",
+		"migrate:abouts": "tsx ./lib/scripts/migration/abouts.ts",
+		"migrate:test": "datocms environments:fork main dev ; tsx ./lib/scripts/migration/projects.ts"
 	},
 	"exports": {
 		"lib/*": "./lib",
@@ -86,11 +94,24 @@
 		"@types/graphql": "^14.5.0",
 		"@types/react": "^18.0.23",
 		"apollo": "^2.34.0",
+		"datocms-html-to-structured-text": "^2.1.11",
 		"eslint": "^8.26.0",
 		"eslint-config-next": "^12.3.1",
+		"get-video-id": "^3.6.5",
+		"hex2rgb": "^2.2.0",
+		"html-entities": "^2.3.3",
+		"node-html-markdown": "^1.3.0",
+		"parse5": "^7.1.2",
+		"sanitize-html": "^2.10.0",
+		"slugify": "^1.6.6",
+		"striptags": "^3.2.0",
 		"ts-node": "^10.9.1",
 		"tsx": "^3.12.3",
+		"turndown": "^7.1.2",
 		"typescript": "^4.9.4",
-		"watch": "^1.0.2"
+		"unified": "^10.1.2",
+		"unist-utils-core": "^1.0.5",
+		"watch": "^1.0.2",
+		"wpapi": "^1.2.2"
 	}
 }
