@@ -1,0 +1,19 @@
+query AllParticipants($yearId: ItemId) {
+	participants: allParticipants(
+		filter: { year: { eq: $yearId } }
+
+		first: 100
+		orderBy: name_ASC
+	) {
+		...ParticipantFragmentLight
+	}
+	pagination: _allParticipantsMeta {
+		count
+	}
+}
+
+query Participant($slug: String) {
+	participant(filter: { slug: { eq: $slug } }) {
+		...ParticipantFragment
+	}
+}

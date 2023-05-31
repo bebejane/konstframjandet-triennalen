@@ -1,0 +1,14 @@
+query AllExhibitions($yearId: ItemId) {
+	exhibitions: allExhibitions(filter: { year: { eq: $yearId } }, first: 100) {
+		...ExhibitionFragmentLight
+	}
+	pagination: _allExhibitionsMeta {
+		count
+	}
+}
+
+query Exhibition($slug: String!) {
+	exhibition(filter: { slug: { eq: $slug } }) {
+		...ExhibitionFragment
+	}
+}
