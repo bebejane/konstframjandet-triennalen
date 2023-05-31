@@ -4,22 +4,7 @@ body {
   font-weight: normal;
 
   @include mq($from: tablet) {
-    font-size: 20px;
-  }
-
-  @include mq($from: wide) {
-    font-size: 24px;
-  }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  color: var(--green);
-  strong {
-    //font-weight: normal;
+    font-size: 2vw;
   }
 }
 
@@ -34,6 +19,10 @@ h1 {
     padding-left: var(--outer-margin);
     padding-right: var(--outer-margin);
   }
+}
+
+h1.logo {
+  font-family: $logo-font;
 }
 
 h2 {
@@ -110,7 +99,8 @@ button,
 .mid input,
 .mid select {
   font-size: 0.95rem;
-  font-family: $headline-font;
+  font-family: $nav-font;
+  font-weight: bold;
   @include mq($from: tablet) {
     font-size: 0.75rem;
   }
@@ -159,7 +149,6 @@ article {
   p strong,
   p b {
     font-weight: normal !important;
-    font-family: $headline-font-medium;
   }
 
   p.center {

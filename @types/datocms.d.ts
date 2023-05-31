@@ -3448,7 +3448,6 @@ type Query = {
 
 /** The query root for this schema */
 type Query_allAboutsMetaArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
   filter?: InputMaybe<AboutModelFilter>;
   locale?: InputMaybe<SiteLocale>;
 };
@@ -3456,7 +3455,6 @@ type Query_allAboutsMetaArgs = {
 
 /** The query root for this schema */
 type Query_allExhibitionsMetaArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
   filter?: InputMaybe<ExhibitionModelFilter>;
   locale?: InputMaybe<SiteLocale>;
 };
@@ -3464,7 +3462,6 @@ type Query_allExhibitionsMetaArgs = {
 
 /** The query root for this schema */
 type Query_allExternalLinksMetaArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
   filter?: InputMaybe<ExternalLinkModelFilter>;
   locale?: InputMaybe<SiteLocale>;
 };
@@ -3472,7 +3469,6 @@ type Query_allExternalLinksMetaArgs = {
 
 /** The query root for this schema */
 type Query_allInternalLinksMetaArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
   filter?: InputMaybe<InternalLinkModelFilter>;
   locale?: InputMaybe<SiteLocale>;
 };
@@ -3480,7 +3476,6 @@ type Query_allInternalLinksMetaArgs = {
 
 /** The query root for this schema */
 type Query_allLocationsMetaArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
   filter?: InputMaybe<LocationModelFilter>;
   locale?: InputMaybe<SiteLocale>;
 };
@@ -3488,7 +3483,6 @@ type Query_allLocationsMetaArgs = {
 
 /** The query root for this schema */
 type Query_allNewsMetaArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
   filter?: InputMaybe<NewsModelFilter>;
   locale?: InputMaybe<SiteLocale>;
 };
@@ -3496,7 +3490,6 @@ type Query_allNewsMetaArgs = {
 
 /** The query root for this schema */
 type Query_allParticipantsMetaArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
   filter?: InputMaybe<ParticipantModelFilter>;
   locale?: InputMaybe<SiteLocale>;
 };
@@ -3504,7 +3497,6 @@ type Query_allParticipantsMetaArgs = {
 
 /** The query root for this schema */
 type Query_allPartnersMetaArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
   filter?: InputMaybe<PartnerModelFilter>;
   locale?: InputMaybe<SiteLocale>;
 };
@@ -3512,7 +3504,6 @@ type Query_allPartnersMetaArgs = {
 
 /** The query root for this schema */
 type Query_allProgramCategoriesMetaArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
   filter?: InputMaybe<ProgramCategoryModelFilter>;
   locale?: InputMaybe<SiteLocale>;
 };
@@ -3520,7 +3511,6 @@ type Query_allProgramCategoriesMetaArgs = {
 
 /** The query root for this schema */
 type Query_allProgramsMetaArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
   filter?: InputMaybe<ProgramModelFilter>;
   locale?: InputMaybe<SiteLocale>;
 };
@@ -3535,7 +3525,6 @@ type Query_allUploadsMetaArgs = {
 
 /** The query root for this schema */
 type Query_allYearsMetaArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
   filter?: InputMaybe<YearModelFilter>;
   locale?: InputMaybe<SiteLocale>;
 };

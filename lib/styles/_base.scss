@@ -1,7 +1,8 @@
 :root {
 	--black: #1d1d1d;
-	--white: #fcfcfc;
-	--red: #bf0000;
+	--back: #fafafa;
+	--white: #ffffff;
+	--red: #d20000;
 	--green: #097832;
 	--pink: #ff57ff;
 	--archive: #ececec;
@@ -21,7 +22,7 @@
 	--header-height: calc((var(--outer-margin) * 2) + 2.75rem); //snygga upp sen
 	--menu-transition: 0.3s ease-in-out;
 
-	--background: var(--white);
+	--background: var(--back);
 	--foreground: var(--black);
 
 	--z-background-image: 0;

@@ -8,8 +8,6 @@ import { useTranslations } from 'next-intl'
 import { usePage } from '/lib/context/page'
 import { PROJECT_NAME, PROJECT_ABBR } from '/lib/constant'
 import useStore from '/lib/store'
-
-import Logo from '/public/images/logo-text.svg'
 import { translatePath } from '/lib/utils'
 
 export type SectionHeaderProps = {
@@ -48,7 +46,7 @@ export default function SectionHeader() {
 
   return (
     <>
-      <Link href="/" className={s.logo}><Logo /></Link>
+      <Link href="/" className={s.logo}><h1 className="logo">Triennalen</h1></Link>
       <header className={cn(s.header, !showMenu && s.full, isHome && s.home)}>
         {parentPath && asPath !== parentPath && parent ?
           <Link href={parentPath} transformHref={false}>
