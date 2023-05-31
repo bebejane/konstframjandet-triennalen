@@ -24,20 +24,11 @@ export default withWebPreviewsEdge(async ({ item, itemType }) => {
     case 'participant':
       path = `/konstnarer/${slug}`
       break;
-    case 'news':
-      path = `/nyheter/${slug}`
-      break;
     case 'location':
       path = `/platser/${slug}`
       break;
     case 'exhibition':
       path = `/utstallningar/${slug}`
-      break;
-    case 'exhibition':
-      path = `/utstallningar/${slug}`
-      break;
-    case 'partner':
-      path = `/partners/${slug}`
       break;
     case 'contact':
       path = `/kontakt`

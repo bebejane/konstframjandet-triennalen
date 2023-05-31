@@ -24,10 +24,6 @@ export default withRevalidate(async (record, revalidate) => {
       paths.push('/konstnarer')
       paths.push(`/konstnarer/${slug}`)
       break;
-    case 'news':
-      paths.push('/nyheter')
-      paths.push(`/nyheter/${slug}`)
-      break;
     case 'location':
       paths.push('/platser')
       paths.push(`/platser/${slug}`)
@@ -35,10 +31,6 @@ export default withRevalidate(async (record, revalidate) => {
     case 'exhibition':
       paths.push('/utstallningar')
       paths.push(`/utstallningar/${slug}`)
-      break;
-    case 'partner':
-      paths.push('/partners')
-      paths.push(`/partners/${slug}`)
       break;
     case 'contact':
       paths.push(`/kontakt`)
