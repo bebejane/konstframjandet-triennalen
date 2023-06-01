@@ -15,6 +15,7 @@
     --max-width: calc(100% - var(--logo-size-optical) - calc(var(--outer-margin) * 3));
     min-width: var(--max-width);
     max-width: var(--max-width);
+    font-size: 1.5rem !important;
   }
 
   &.hide {
@@ -49,7 +50,6 @@
 
     @include mq($until: tablet) {
       margin-left: 0.62em;
-      font-size: 1.1rem;
     }
 
     &[data-level="0"] {

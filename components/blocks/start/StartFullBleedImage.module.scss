@@ -4,7 +4,7 @@
   transition: all var(--menu-transition);
 
   @include mq($until: tablet) {
-    height: 50vh;
+    height: 70vh;
   }
 
   width: 100vw;
@@ -41,7 +41,7 @@
     max-height: 100vh;
 
     @include mq($until: tablet) {
-      height: 50vh;
+      height: 70vh;
     }
   }
 
