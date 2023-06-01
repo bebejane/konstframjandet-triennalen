@@ -46,7 +46,7 @@ export default function SectionHeader() {
 
   return (
     <>
-      <Link href="/" className={s.logo}><h5 className="logo">Triennalen</h5></Link>
+      <Link href="/" className={s.logo}><h5 className="logo">T<span>riennalen</span></h5></Link>
       <header className={cn(s.header, !showMenu && s.full, isHome && s.home)}>
         {parentPath && asPath !== parentPath && parent ?
           <Link href={parentPath} transformHref={false}>

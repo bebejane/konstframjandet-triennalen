@@ -17,6 +17,7 @@ export default function StartProgram({ data: { programs } }: Props) {
   return (
     <div className={s.container}>
       <header>
+        <span></span>
         <h2>{t('Menu.program')}</h2>
         <Link href={'/program'} className="small">
           {t('General.showAll')}

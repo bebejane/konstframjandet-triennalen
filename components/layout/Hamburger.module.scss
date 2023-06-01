@@ -1,11 +1,11 @@
 .hamburger {
-  --line-height: 6px;
+  --line-height: max(5px, 0.5vw);
   --line-height-half: calc(var(--line-height) / 2);
-  --height: 28px;
-  --width: 30px;
+  --height: max(28px, 2.1vw);
+  --width: max(30px, 2.5vw);
   position: fixed;
   z-index: var(--z-hamburger);
-  top: 0.5rem;
+  top: 0.4rem;
   right: 0;
   margin: var(--outer-margin);
   width: var(--width);
@@ -17,17 +17,9 @@
   &.home {
     mix-blend-mode: difference;
 
-    .wrap>div {
+    .wrap > div {
       background-color: var(--white);
     }
-  }
-
-
-
-
-  @include mq($from: tablet) {
-    --line-height: 7px;
-    top: 0;
   }
 
   .wrap {
@@ -35,9 +27,7 @@
     width: 100%;
     height: 100%;
 
-
-
-    >div {
+    > div {
       position: absolute;
       width: 100%;
       height: var(--line-height);
@@ -47,7 +37,6 @@
       animation-iteration-count: 1;
       animation-direction: reverse;
       animation-fill-mode: forwards;
-
 
       &.closed {
         animation-direction: normal;

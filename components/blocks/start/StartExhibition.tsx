@@ -17,6 +17,7 @@ export default function StartExhibition({ data: { exhibitions } }: Props) {
   return (
     <div className={s.container}>
       <header>
+        <span></span>
         <h2>{t('Menu.exhibitions')}</h2>
         <Link href={'/utstallningar'} className="small">
           {t('General.showAll')}

@@ -14,6 +14,7 @@
 
   h2 {
     text-align: center;
+    padding-bottom: var(--space);
   }
 
   display: flex;
@@ -80,11 +81,12 @@
         padding-left: 0;
         padding-right: 0;
         word-break: break-word;
+        line-height: 1.2em;
       }
 
       &:hover {
         img {
-          background-color: var(--green);
+          background-color: var(--red);
         }
       }
     }

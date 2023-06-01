@@ -25,16 +25,27 @@ h5 {
   }
 }
 
+h2 {
+  padding-bottom: 0;
+}
+
 h5.logo {
   font-family: $logo-font;
   color: var(--black);
+  padding: 0;
+  @include mq($until: desktop) {
+    font-size: 2.8rem;
+  }
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: $nav-font;
   padding-bottom: 1em;
   line-height: 1.2;
+  @include mq($from: desktop) {
+    font-size: 1.2rem;
+  }
 }
 
 p {
@@ -112,11 +123,15 @@ article {
   .structured p:first-of-type:first-letter {
     float: left;
     color: #d20000;
-    font-size: 5.4rem;
-    line-height: 60px;
+    font-size: 4.4rem;
+    line-height: 3rem;
     padding-top: 0.55rem;
     padding-right: 0.5rem;
     font-family: $headline-font;
+    @include mq($from: tablet) {
+      line-height: 3rem;
+      font-size: 5.4rem;
+    }
   }
 
   ul {

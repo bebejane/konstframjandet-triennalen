@@ -2,7 +2,7 @@
   section {
     padding-top: var(--space);
     padding-bottom: var(--space);
-    border-bottom: 1px solid var(--black);
+    border-bottom: var(--thick-line) solid var(--white);
 
     @include mq($until: tablet) {
       margin-left: var(--outer-margin);
@@ -35,6 +35,13 @@
       }
     }
 
+    a {
+      transition: color 0.3s;
+      &:hover {
+        color: var(--red);
+      }
+    }
+
     header {
       display: flex;
       flex-direction: row;
@@ -43,6 +50,15 @@
       align-items: baseline;
       position: relative;
       margin-bottom: var(--space);
+
+      span,
+      a {
+        width: 20%;
+      }
+
+      a {
+        text-align: right;
+      }
 
       h2 {
         padding-left: 0;

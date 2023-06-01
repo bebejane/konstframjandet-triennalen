@@ -3,11 +3,20 @@
     margin: 0;
   }
 
+  header {
+    display: block !important;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
   .text {
     text-align: center;
   }
 
   h3 {
+    text-align: center;
     padding-top: 1em;
     padding-bottom: 0;
   }

@@ -14,6 +14,7 @@ export default function StartSelectedLocation({ data: { locations } }: Props) {
   return (
     <div className={s.container}>
       <header>
+        <span></span>
         <h2>{t('Menu.locations')}</h2>
         <Link href={'/platser'} className="small">
           {t('General.showAll')}
