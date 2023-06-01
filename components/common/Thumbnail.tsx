@@ -2,11 +2,8 @@ import s from './Thumbnail.module.scss'
 import cn from 'classnames'
 import React, { useState } from 'react'
 import { Image } from 'react-datocms/image'
-import { DatoMarkdown as Markdown } from 'dato-nextjs-utils/components'
 import Link from '/components/nav/Link'
-import { useRouter } from 'next/router'
-import { usePage } from '/lib/context/page'
-import { randomInt, truncateText, truncateWords } from '/lib/utils'
+import { truncateWords } from '/lib/utils'
 import { remark } from 'remark'
 import strip from 'strip-markdown'
 
@@ -35,6 +32,7 @@ export default function Thumbnail({ image, slug, intro, title, titleLength, titl
               data={image.responsiveImage}
               className={s.image}
               pictureClassName={s.picture}
+              placeholderClassName={s.placeholder}
               onLoad={() => setLoaded(true)}
             /><div className={s.border}></div>
           </>
