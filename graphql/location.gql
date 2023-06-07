@@ -3,7 +3,7 @@ query AllLocations($first: IntType = 100, $skip: IntType = 0, $yearId: ItemId) {
 		filter: { year: { eq: $yearId } }
 		first: $first
 		skip: $skip
-		orderBy: [_createdAt_DESC]
+		orderBy: title_ASC
 	) {
 		...LocationFragmentLight
 	}

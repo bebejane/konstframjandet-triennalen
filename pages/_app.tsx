@@ -5,8 +5,7 @@ import { NextIntlProvider } from 'next-intl';
 import { DefaultDatoSEO } from 'dato-nextjs-utils/components';
 import { useRouter } from 'next/router';
 import { locales } from '/lib/i18n'
-import { PROJECT_NAME } from '/lib/constant';
-import { sv, enGB as en } from 'date-fns/locale'
+import { sv } from 'date-fns/locale'
 import setDefaultOptions from 'date-fns/setDefaultOptions';
 
 setDefaultOptions({ locale: sv })

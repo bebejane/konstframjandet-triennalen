@@ -22,38 +22,8 @@ export const buildMenu = async (locale: string) => {
   const years = await allYears()
   const year = years[0]
   const res: MenuQueryResponse = await apiQuery(MenuDocument, { variables: { yearId: year.id, locale, altLocale } });
+
   const menu = buildYearMenu(res, { locale, altLocale, isArchive: false, messages });
-  //const archive: MenuQueryResponse[] = await Promise.all(years.filter(({ id }) => id !== year.id).map(({ id }) => apiQuery(MenuDocument, { variables: { yearId: id, locale, altLocale } })))
-  //const archiveIndex = menu.findIndex(el => el.id === 'archive')
-
-  /*
-
-  menu[archiveIndex].sub = archive.map(el => {
-    const year = el.year.title;
-    const haveAboutOverview = el.abouts.filter(({ year }) => year).length > 0
-
-    return {
-      id: `about-archive-${year}`,
-      label: `LB°${year.substring(2)}`,
-      slug: haveAboutOverview ? `/${year}` : null,
-      altSlug: haveAboutOverview ? `/${year}` : null,
-      sub: buildYearMenu(el, { locale, altLocale, isArchive: true, messages }).filter(e => !e.general).map(e => ({
-        ...e,
-        id: `${e.id}-archive`,
-        slug: `${e.slug}`,
-        altSlug: `${e.altSlug}`,
-        sub: e.sub?.map(e2 => ({
-          ...e2,
-          slug: `${e2.slug}`,
-          altSlug: `${e2.altSlug}`
-        })) || null
-      }))
-        .filter(({ count }) => count || count === null)
-        .sort((a, b) => a.id === 'about' ? -1 : 1)
-    }
-  })
-  */
-
   return menu
 }
 

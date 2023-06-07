@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import { DatoSEO } from "dato-nextjs-utils/components";
 import { useTranslations } from "next-intl";
 import { pageSlugs } from "/lib/i18n";
+import { sortSwedish } from "/lib/utils";
 
 export type Props = {
   locations: LocationRecord[]
@@ -40,6 +41,7 @@ export const getStaticProps = withGlobalProps({ queries: [AllLocationsDocument] 
   return {
     props: {
       ...props,
+      locations: sortSwedish(props.locations, 'title'),
       page: {
         section: 'locations',
         slugs: pageSlugs('locations', props.year.title)

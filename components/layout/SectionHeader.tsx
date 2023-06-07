@@ -6,9 +6,9 @@ import { useRouter } from 'next/router'
 import { MenuItem } from '/lib/menu'
 import { useTranslations } from 'next-intl'
 import { usePage } from '/lib/context/page'
-import { PROJECT_NAME, PROJECT_ABBR } from '/lib/constant'
+import { useScrollInfo } from 'dato-nextjs-utils/hooks'
 import useStore from '/lib/store'
-import { translatePath } from '/lib/utils'
+import useDevice from '/lib/hooks/useDevice'
 
 export type SectionHeaderProps = {
   menu: MenuItem[]
@@ -23,9 +23,11 @@ export default function SectionHeader() {
 
   const [showMenu] = useStore((state) => [state.showMenu])
   const { section, parent, isHome, slugs } = usePage()
+  const { scrolledPosition, viewportHeight } = useScrollInfo()
+  const { isDesktop } = useDevice()
 
+  const ratio = !isDesktop ? 0 : Math.min(scrolledPosition / (viewportHeight / 2), 1)
   const parentPath = slugs.find((slug) => slug.locale === locale)?.parent
-
   const isSearch = section === 'search'
   const label = !isSearch ? `${!isHome ? `${t(section)}` : ''}` : t('search')
 
@@ -46,7 +48,13 @@ export default function SectionHeader() {
 
   return (
     <>
-      <Link href="/" className={s.logo}><h5 className="logo">T<span>riennalen</span></h5></Link>
+      <Link href="/" className={s.logo}>
+        <h5 className="logo">
+          {'Triennalen'.split('').filter((c, i) => 10 - i > (ratio * 9)).map((c, idx) =>
+            <span className={cn(ratio === 1 && 'logo-solo')}>{c}</span>
+          )}
+        </h5>
+      </Link>
       <header className={cn(s.header, !showMenu && s.full, isHome && s.home)}>
         {parentPath && asPath !== parentPath && parent ?
           <Link href={parentPath} transformHref={false}>

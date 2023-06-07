@@ -62,8 +62,6 @@ export default function Menu({ items }: MenuProps) {
 
 	}, [menuRef, selected, scrolledPosition, documentHeight, viewportHeight, width, height, isMobile])
 
-
-
 	useEffect(() => {
 
 		// Find selected item from asPath recursively

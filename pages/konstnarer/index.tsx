@@ -6,6 +6,8 @@ import { useRouter } from "next/router";
 import { useTranslations } from "next-intl";
 import { DatoSEO } from "dato-nextjs-utils/components";
 import { pageSlugs } from "/lib/i18n";
+import { sortSwedish } from "/lib/utils";
+
 export type Props = {
   participants: (ParticipantRecord & ThumbnailImage)[]
 }
@@ -40,6 +42,7 @@ export const getStaticProps = withGlobalProps({ queries: [AllParticipantsDocumen
   return {
     props: {
       ...props,
+      participants: sortSwedish(props.participants, 'name'),
       page: {
         section: 'participants',
         slugs: pageSlugs('participants', props.year.title)
