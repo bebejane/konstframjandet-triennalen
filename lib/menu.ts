@@ -6,6 +6,7 @@ import { locales } from '/lib/i18n'
 
 const base: Menu = [
   { id: 'home', label: 'Hem', slug: '/', general: true },
+  { id: 'news', label: 'Nyheter', slug: '/nyheter', general: true },
   { id: 'exhibitions', label: 'Utställningar', slug: '/utstallningar' },
   { id: 'program', label: 'Program', slug: '/program' },
   { id: 'participants', label: 'Konstnärer', slug: '/konstnarer' },
