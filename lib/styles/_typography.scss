@@ -39,7 +39,6 @@ h5.logo {
   }
 
   @include mq($from: tablet) {
-
     span {
       display: inline-block;
       transform: scale(1);
@@ -98,7 +97,7 @@ p.intro,
     padding-right: 0.5em;
   }
 
-  >p {
+  > p {
     padding: 0;
   }
 }
@@ -140,13 +139,14 @@ b {
 
 // För Article
 article {
-  .structured p:first-of-type:first-letter {
+  .structured > p:first-of-type:first-letter {
     float: left;
-    color: #d20000;
+    color: var(--red);
     font-size: 4.4rem;
     line-height: 3rem;
     padding-top: 0.55rem;
-    padding-right: 0.5rem;
+    padding-right: 0.4rem;
+    margin-left: -0.4rem;
     font-family: $headline-font;
 
     @include mq($from: tablet) {
@@ -182,10 +182,10 @@ article {
     }
   }
 
-  p+h3,
-  ul+h3,
-  ul+h2,
-  p+h2 {
+  p + h3,
+  ul + h3,
+  ul + h2,
+  p + h2 {
     padding-top: 1rem;
   }
 
