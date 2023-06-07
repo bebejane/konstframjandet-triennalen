@@ -89,6 +89,13 @@
       transition: all 0.3s ease-in-out;
       background-color: var(--white);
 
+      mask-size: contain;
+      mask-repeat: no-repeat;
+      mask-position: center;
+
+
+
+
       &:hover {
         background-color: var(--red) !important;
       }
@@ -107,6 +114,18 @@
 
     .placeholder {
       mix-blend-mode: multiply;
+    }
+  }
+
+  &.odd {
+    .image {
+      mask-image: url('/images/triennalen_mask_square.svg');
+    }
+  }
+
+  &.even {
+    .image {
+      mask-image: url('/images/triennalen_mask_square_flip.svg');
     }
   }
 }

@@ -21,9 +21,10 @@ export default function Exhibition({ exhibitions }: Props) {
     <>
       <DatoSEO title={t('Menu.exhibitions')} />
       <CardContainer key={asPath} columns={3}>
-        {exhibitions.map(({ id, image, title, startDate, endDate, location, slug }) =>
+        {exhibitions.map(({ id, image, title, startDate, endDate, location, slug }, i) =>
           <Card key={id}>
             <Thumbnail
+              index={i}
               title={title}
               titleRows={2}
               image={image}

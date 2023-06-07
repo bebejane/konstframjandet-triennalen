@@ -20,9 +20,10 @@ export default function Partners({ locations }: Props) {
     <>
       <DatoSEO title={t('Menu.partners')} />
       <CardContainer key={`${asPath}-partners`}>
-        {locations.map(({ id, image, title, intro, slug }) =>
+        {locations.map(({ id, image, title, intro, slug }, i) =>
           <Card key={id}>
             <Thumbnail
+              index={i}
               title={title}
               image={image}
               intro={intro}

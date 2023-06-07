@@ -39,9 +39,10 @@ export default function Program({ programs, programCategories }: Props) {
       />
       {haveProgramItems ?
         <CardContainer key={`${category}-${asPath}`}>
-          {comingPrograms.filter(categoryFilter).map(({ id, image, title, intro, slug, startDate, endDate, programCategory }) =>
+          {comingPrograms.filter(categoryFilter).map(({ id, image, title, intro, slug, startDate, endDate, programCategory }, i) =>
             <Card key={id}>
               <Thumbnail
+                index={i}
                 title={title}
                 titleRows={2}
                 image={image}
@@ -59,9 +60,10 @@ export default function Program({ programs, programCategories }: Props) {
         <>
           <h2 className={s.subheader}>{t('Program.finished')}</h2>
           <CardContainer key={`${category}-${asPath}`}>
-            {pastPrograms.filter(categoryFilter).map(({ id, image, title, intro, slug, startDate, endDate, programCategory }) =>
+            {pastPrograms.filter(categoryFilter).map(({ id, image, title, intro, slug, startDate, endDate, programCategory }, i) =>
               <Card key={id}>
                 <Thumbnail
+                  index={i}
                   title={title}
                   titleRows={2}
                   image={image}

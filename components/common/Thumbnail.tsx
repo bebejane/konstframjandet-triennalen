@@ -11,6 +11,7 @@ export type Props = {
   image?: FileField
   slug: string
   title: string
+  index: number
   titleLength?: number
   titleRows?: number
   intro?: string
@@ -18,13 +19,13 @@ export type Props = {
   transformHref?: boolean
 }
 
-export default function Thumbnail({ image, slug, intro, title, titleLength, titleRows = 3, meta, transformHref = true }: Props) {
+export default function Thumbnail({ image, index, slug, intro, title, titleLength, titleRows = 3, meta, transformHref = true }: Props) {
 
   const strippedIntro = truncateWords(remark().use(strip).processSync(intro).value as string, 500)
   const [loaded, setLoaded] = useState(false);
 
   return (
-    <Link href={slug} transformHref={transformHref} className={s.thumbnail}>
+    <Link href={slug} transformHref={transformHref} className={cn(s.thumbnail, index % 2 === 0 ? s.odd : s.even)}>
       {image &&
         <div className={s.imageWrap}>
           <>

@@ -21,9 +21,10 @@ export default function Participant({ participants }: Props) {
     <>
       <DatoSEO title={t('participants')} />
       <CardContainer key={asPath}>
-        {participants.map(({ id, image, name, intro, slug }) =>
+        {participants.map(({ id, image, name, intro, slug }, i) =>
           <Card key={id}>
             <Thumbnail
+              index={i}
               title={name}
               image={image}
               intro={intro}

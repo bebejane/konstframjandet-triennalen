@@ -1,4 +1,5 @@
 import s from './Card.module.scss'
+import st from './Thumbnail.module.scss'
 import cn from 'classnames'
 import React from 'react'
 
