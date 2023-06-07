@@ -28,8 +28,8 @@ export default function Exhibition({ exhibitions }: Props) {
               title={title}
               titleRows={2}
               image={image}
-              meta={`${startDate ? `${formatDate(startDate, endDate)} • ` : ''}${location.map(l => l.title).join(', ')}`}
-              slug={`/utstallningar/${slug}`}
+              meta={startDate ? formatDate(startDate, endDate) : ''}
+              slug={`/ utstallningar / ${slug}`}
             />
           </Card>
         )}

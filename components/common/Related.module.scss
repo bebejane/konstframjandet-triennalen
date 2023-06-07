@@ -56,6 +56,20 @@
         transition: all 0.5s;
         position: relative;
 
+        .image {
+          mask-size: contain;
+          mask-repeat: no-repeat;
+          mask-position: center;
+
+          &.odd {
+            mask-image: url('/images/triennalen_mask_square.svg');
+          }
+
+          &.even {
+            mask-image: url('/images/triennalen_mask_square_flip.svg');
+          }
+        }
+
         .border {
           width: 100%;
           height: 100%;

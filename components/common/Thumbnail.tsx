@@ -25,7 +25,7 @@ export default function Thumbnail({ image, index, slug, intro, title, titleLengt
   const [loaded, setLoaded] = useState(false);
 
   return (
-    <Link href={slug} transformHref={transformHref} className={cn(s.thumbnail, index % 2 === 0 ? s.odd : s.even)}>
+    <Link href={slug} transformHref={transformHref} className={cn(s.thumbnail, index % 2 === 0 ? s.even : s.odd)}>
       {image &&
         <div className={s.imageWrap}>
           <>

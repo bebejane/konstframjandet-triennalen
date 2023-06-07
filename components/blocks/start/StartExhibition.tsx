@@ -24,9 +24,10 @@ export default function StartExhibition({ data: { exhibitions } }: Props) {
         </Link>
       </header>
       <CardContainer hideLastOnDesktop={exhibitions.length % 3 !== 0}>
-        {exhibitions.map(({ id, image, intro, title, slug, year, startDate, endDate, location }) =>
+        {exhibitions.map(({ id, image, intro, title, slug, year, startDate, endDate, location }, i) =>
           <Card key={id}>
             <Thumbnail
+              index={i}
               image={image}
               title={title}
               intro={intro}

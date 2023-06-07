@@ -26,7 +26,7 @@ export default function SectionHeader() {
   const { scrolledPosition, viewportHeight } = useScrollInfo()
   const { isDesktop } = useDevice()
 
-  const ratio = !isDesktop ? 0 : Math.min(scrolledPosition / (viewportHeight / 2), 1)
+  const ratio = !isDesktop ? 0 : Math.min(scrolledPosition / (viewportHeight / 4), 1)
   const parentPath = slugs.find((slug) => slug.locale === locale)?.parent
   const isSearch = section === 'search'
   const label = !isSearch ? `${!isHome ? `${t(section)}` : ''}` : t('search')
