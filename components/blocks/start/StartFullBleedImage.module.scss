@@ -2,6 +2,7 @@
   position: relative;
   margin-bottom: calc(-1 * var(--space));
   transition: all var(--menu-transition);
+  overflow: hidden;
 
   @include mq($until: tablet) {
     height: 70vh;

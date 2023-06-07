@@ -30,7 +30,7 @@ export default function StartExhibition({ data: { exhibitions } }: Props) {
               image={image}
               title={title}
               intro={intro}
-              meta={`${startDate ? `${formatDate(startDate, endDate)} • ` : ''}${location.map(l => l.title).join(', ')}`}
+              meta={`${startDate ? `${formatDate(startDate, endDate)} ` : ''}`}
               slug={`/${year.title}/utstallningar/${slug}`}
               transformHref={false}
               titleLength={50}
