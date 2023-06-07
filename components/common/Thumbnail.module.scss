@@ -6,7 +6,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
 
-
   h3 {
     display: flex;
     align-items: flex-end;
@@ -40,7 +39,7 @@
     }
 
     &.rows-3 {
-      height: 4rem;
+      //height: 4rem;
 
       span {
         -webkit-line-clamp: 3;
@@ -98,14 +97,12 @@
         object-fit: cover;
         mix-blend-mode: multiply;
       }
-
     }
 
     .picture {
       overflow: hidden;
       max-width: 100% !important;
       transition: transform 0.2s ease-in-out;
-
     }
 
     .placeholder {
