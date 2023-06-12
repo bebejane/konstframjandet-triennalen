@@ -122,7 +122,7 @@
   z-index: var(--z-menu);
 
   @include mq($until: desktop) {
-    span {
+    span:not(:first-of-type) {
       display: none;
     }
   }
