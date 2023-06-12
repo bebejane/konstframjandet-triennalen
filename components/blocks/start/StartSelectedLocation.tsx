@@ -21,9 +21,10 @@ export default function StartSelectedLocation({ data: { locations } }: Props) {
         </Link>
       </header>
       <CardContainer hideLastOnDesktop={locations.length % 3 !== 0}>
-        {locations.map(({ id, image, intro, title, slug }) =>
+        {locations.map(({ id, image, intro, title, slug }, i) =>
           <Card key={id}>
             <Thumbnail
+              index={i}
               intro={intro}
               image={image}
               title={title}

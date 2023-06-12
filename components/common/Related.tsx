@@ -1,4 +1,5 @@
 import s from './Related.module.scss'
+import cn from 'classnames'
 import React from 'react'
 import { Image } from 'react-datocms'
 import Link from '/components/nav/Link'
@@ -21,7 +22,12 @@ export default function Related({ header, items }: Props) {
           <li key={item.id}>
             <Link href={recordToSlug(items[idx])}>
               <figure>
-                {item.image && <Image data={item.image.responsiveImage} />}
+                {item.image &&
+                  <Image
+                    data={item.image.responsiveImage}
+                    className={cn(s.image, idx % 2 === 0 ? s.even : s.odd)}
+                  />
+                }
                 <div className={s.border}></div>
               </figure>
               <figcaption>

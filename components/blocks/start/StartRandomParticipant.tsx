@@ -24,9 +24,10 @@ export default function StartRandomParticipant({ data: { participants } }: Props
         </Link>
       </header>
       <CardContainer hideLastOnDesktop={participants.length % 3 !== 0}>
-        {participants.map(({ id, image, intro, name, slug, year }) =>
+        {participants.map(({ id, image, intro, name, slug, year }, i) =>
           <Card key={id}>
             <Thumbnail
+              index={i}
               image={image}
               title={name}
               intro={intro}

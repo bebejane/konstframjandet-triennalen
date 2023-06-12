@@ -24,9 +24,10 @@ export default function StartProgram({ data: { programs } }: Props) {
         </Link>
       </header>
       <CardContainer hideLastOnDesktop={programs.length % 3 !== 0}>
-        {programs.map(({ id, image, intro, title, slug, year, startDate, endDate, programCategory }) =>
+        {programs.map(({ id, image, intro, title, slug, year, startDate, endDate, programCategory }, i) =>
           <Card key={id}>
             <Thumbnail
+              index={i}
               intro={intro}
               image={image}
               title={title}

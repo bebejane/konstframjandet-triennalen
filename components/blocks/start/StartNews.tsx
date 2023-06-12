@@ -23,9 +23,10 @@ export default function StartNews({ data: { news } }: Props) {
         </Link>
       </header>
       <CardContainer hideLastOnDesktop={news.length % 3 !== 0}>
-        {news.map(({ id, intro, title, slug }) =>
+        {news.map(({ id, intro, title, slug }, i) =>
           <Card key={id}>
             <Thumbnail
+              index={i}
               intro={intro}
               title={title}
               slug={`/nyheter/${slug}`}
