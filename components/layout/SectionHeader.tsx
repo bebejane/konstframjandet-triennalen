@@ -51,7 +51,7 @@ export default function SectionHeader() {
       <Link href="/" className={s.logo}>
         <h5 className="logo">
           {'Triennalen'.split('').filter((c, i) => 10 - i > (ratio * 9)).map((c, idx) =>
-            <span className={cn(ratio === 1 && 'logo-solo')}>{c}</span>
+            <span key={idx} className={cn(ratio === 1 && 'logo-solo')}>{c}</span>
           )}
         </h5>
       </Link>
