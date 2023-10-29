@@ -12,14 +12,23 @@ export default withWebPreviewsEdge(async ({ item, itemType }) => {
   const slug = typeof item.attributes.slug === 'object' ? item.attributes.slug.sv : item.attributes.slug
 
   switch (api_key) {
-    case 'start':
+    case 'year':
+      path = `/${item.attributes.title}`
+      break;
+    case 'start': case 'general':
       path = `/`
       break;
     case 'about':
       path = `/om/${slug}`
       break;
+    case 'news':
+      path = `/nyheter/${slug}`
+      break;
     case 'program':
       path = `/program/${slug}`
+      break;
+    case 'program_category':
+      path = `/program`
       break;
     case 'participant':
       path = `/konstnarer/${slug}`

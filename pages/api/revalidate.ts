@@ -10,15 +10,24 @@ export default withRevalidate(async (record, revalidate) => {
 
 
   switch (apiKey) {
-    case 'start':
+    case 'year':
+      paths.push(`/${record.title}`)
+      break;
+    case 'start': case 'general':
       paths.push('/')
       break;
     case 'about':
       paths.push(`/om/${slug}`)
       break;
+    case 'news':
+      paths.push(`/nyheter/${slug}`)
+      break;
     case 'program':
       paths.push('/program')
       paths.push(`/program/${slug}`)
+      break;
+    case 'program_category':
+      paths.push('/program')
       break;
     case 'participant':
       paths.push('/konstnarer')
@@ -39,6 +48,5 @@ export default withRevalidate(async (record, revalidate) => {
       break;
   }
 
-  console.log(paths)
-  revalidate(paths)
+  await revalidate(paths)
 })
