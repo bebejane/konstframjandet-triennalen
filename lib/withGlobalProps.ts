@@ -18,6 +18,8 @@ export default function withGlobalProps(opt: any, callback: Function): GetStatic
     queries.push(SEOQuery(opt.seo))
 
   return async (context: GetStaticPropsContext) => {
+    if (context.params?.year && isNaN(parseInt(context.params?.year as string)))
+      return { notFound: true, revalidate };
 
     const years = await allYears()
     let year = years.find(({ title }) => context.params?.year ? title === context.params?.year : title === years[0].title)
