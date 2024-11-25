@@ -71,14 +71,14 @@
         background: transparent;
       }
 
-      > li > a {
+      >li>a {
         font-weight: bold;
         color: var(--black);
       }
     }
 
     &[data-level="2"] {
-      li > a {
+      li>a {
         font-weight: normal !important;
       }
     }
@@ -97,12 +97,12 @@
         line-height: initial;
       }
 
-      &.bold > a {
+      &.bold>a {
         font-weight: bold;
       }
 
       &.active {
-        a {
+        >a {
           color: var(--red) !important;
         }
       }
@@ -121,7 +121,7 @@
     }
   }
 
-  > ul {
+  >ul {
     margin-top: calc(var(--big-space) - var(--outer-margin));
   }
 }

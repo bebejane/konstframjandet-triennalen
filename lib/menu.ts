@@ -6,13 +6,13 @@ import { locales } from '/lib/i18n'
 
 const base: Menu = [
   { id: 'home', label: 'Hem', slug: '/', general: true },
-  { id: 'news', label: 'Nyheter', slug: '/nyheter', general: true },
   { id: 'exhibitions', label: 'Utställningar', slug: '/utstallningar' },
   { id: 'program', label: 'Program', slug: '/program' },
   { id: 'participants', label: 'Konstnärer', slug: '/konstnarer' },
   { id: 'locations', label: 'Platser', slug: '/platser', general: false },
   { id: 'about', label: 'Om', slug: '/om', virtual: true, sub: [] },
   { id: 'contact', label: 'Kontakt', slug: '/kontakt', general: true },
+  { id: 'archive', label: 'Arkiv', slug: '/arkiv', general: true, sub: [] },
   { id: 'search', label: 'Sök', slug: '/sok', general: true }
 ]
 
@@ -22,9 +22,32 @@ export const buildMenu = async (locale: string) => {
   const altLocale = locales.find(l => locale != l)
   const years = await allYears()
   const year = years[0]
+  const archive: MenuQueryResponse[] = await Promise.all(years.filter(({ id }) => id !== year.id).map(({ id }) => apiQuery(MenuDocument, { variables: { yearId: id, locale, altLocale } })))
   const res: MenuQueryResponse = await apiQuery(MenuDocument, { variables: { yearId: year.id, locale, altLocale } });
-
   const menu = buildYearMenu(res, { locale, altLocale, isArchive: false, messages });
+  const archiveIndex = menu.findIndex(el => el.id === 'archive')
+  //@ts-ignore
+  menu[archiveIndex].sub = archive.map(el => {
+    const year = el.year.title;
+    const haveAboutOverview = el.abouts.filter(({ year }) => year).length > 0
+
+    return {
+      id: `about-archive-${year}`,
+      label: `${year}`,
+      slug: `/${year}`,
+      sub: buildYearMenu(el, { locale, altLocale, isArchive: true, messages }).filter(e => !e.general).map(e => ({
+        ...e,
+        id: `${e.id}-archive`,
+        slug: `/${year}${e.slug}`,
+        sub: e.sub?.map(e2 => ({
+          ...e2,
+          slug: `${e2.slug}`,
+        })) || null
+      }))
+        .filter(({ count }) => count || count === null)
+        .sort((a, b) => a.id === 'about' ? -1 : 1)
+    }
+  })
   return menu
 }
 
@@ -33,11 +56,10 @@ export const buildYearMenu = (res: MenuQueryResponse, { locale, altLocale, isArc
   const menu = base.map(item => {
 
     let sub: MenuItem[];
-    const year = res.year.title
 
     if (item.slug) {
       item.slug = `/${i18nPaths[item.id][locale]}`
-      item.altSlug = `/${i18nPaths[item.id][altLocale]}`
+      //item.altSlug = `/${i18nPaths[item.id][altLocale]}`
     }
 
     switch (item.id) {
@@ -47,11 +69,11 @@ export const buildYearMenu = (res: MenuQueryResponse, { locale, altLocale, isArc
           id: `about-${el.slug}`,
           label: el.title,
           slug: `/${i18nPaths.about[locale]}/${el.slug}`,
-          altSlug: `/${i18nPaths.about[altLocale]}/${el.altSlug}`
+          //altSlug: `/${i18nPaths.about[altLocale]}/${el.altSlug}`
         }))
         if (res.abouts.length) {
           item.slug = `/${i18nPaths.about[locale]}/${res.abouts[0].slug}`
-          item.altSlug = `/${i18nPaths.about[altLocale]}/${res.abouts[0].altSlug}`
+          //item.altSlug = `/${i18nPaths.about[altLocale]}/${res.abouts[0].altSlug}`
         }
         break;
       default:

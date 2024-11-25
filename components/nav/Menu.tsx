@@ -12,7 +12,6 @@ import { useWindowSize } from 'usehooks-ts'
 import i18nPaths from '/lib/i18n/paths.json'
 import useDevice from '/lib/hooks/useDevice'
 
-
 export type MenuProps = { items: Menu }
 
 export default function Menu({ items }: MenuProps) {
@@ -66,6 +65,7 @@ export default function Menu({ items }: MenuProps) {
 
 		// Find selected item from asPath recursively
 		const findSelected = (path: string, item: MenuItem): MenuItem | undefined => {
+
 			if (item.slug === path || item.altSlug === path) return item
 			if (item.sub?.length) {
 				for (let i = 0; i < item.sub.length; i++) {
@@ -146,9 +146,7 @@ export function MenuTree({ item, level, selected, setSelected, path, locale, }: 
 
 	const itemIncludesPath = (item: MenuItem) => {
 		if (!item) return false
-		const slugs = [item.slug, item.altSlug].map(s => s.startsWith(`/${locale}`) ? s.replace(`/${locale}`, '') : s)
-		const p = path.startsWith(`/${locale}`) ? path.replace(`/${locale}`, '') : path
-		return slugs.includes(p)
+		return item.slug === path
 	}
 
 	const isVisible = (path: string, item: MenuItem) => {
