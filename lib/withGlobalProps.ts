@@ -28,7 +28,6 @@ export default function withGlobalProps(opt: any, callback: Function): GetStatic
       return { notFound: true };
 
     year = { ...year, isArchive: year.title !== years[0].title } as YearExtendedRecord
-
     const variables = queries.map(el => ({ locale: context.locale, yearId: year.id }))
     const props = await apiQuery(queries, { preview: context.preview, variables });
 

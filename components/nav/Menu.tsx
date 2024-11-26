@@ -66,7 +66,9 @@ export default function Menu({ items }: MenuProps) {
 		// Find selected item from asPath recursively
 		const findSelected = (path: string, item: MenuItem): MenuItem | undefined => {
 
-			if (item.slug === path || item.altSlug === path) return item
+			const isSameBase = item.slug.split('/').slice(1, 3).join('') === path.split('/').slice(1, 3).join('')
+
+			if (item.slug === path || item.altSlug === path || isSameBase) return item
 			if (item.sub?.length) {
 				for (let i = 0; i < item.sub.length; i++) {
 					const selected = findSelected(path, item.sub[i])
