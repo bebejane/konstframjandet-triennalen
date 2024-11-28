@@ -16,13 +16,11 @@ export default function StartText({ data: { text, headline, link } }: Props) {
           <h2>{headline}</h2>
         </header>
       }
-
       <Markdown className={s.text}>
         {text}
       </Markdown>
-
       <h3>
-        <DatoLink link={link} className="small" />
+        <DatoLink transformHref={false} link={link} className="small" />
       </h3>
     </div>
   )
