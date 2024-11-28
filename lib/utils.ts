@@ -2,7 +2,6 @@ import i18nPaths from './i18n/paths.json'
 import { TypedDocumentNode } from "@apollo/client/core";
 import { apiQuery } from "dato-nextjs-utils/api";
 import type { ApiQueryOptions } from "dato-nextjs-utils/api";
-import type { MenuItem } from '/lib/menu';
 import format from "date-fns/format";
 import React from "react";
 import { AllYearsDocument } from '/graphql';

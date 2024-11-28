@@ -9,6 +9,7 @@ const base: Menu = [
   { id: 'exhibitions', label: 'Utställningar', slug: '/utstallningar' },
   { id: 'program', label: 'Program', slug: '/program' },
   { id: 'participants', label: 'Konstnärer', slug: '/konstnarer' },
+  { id: 'news', label: 'Nyheter', slug: '/nyheter' },
   { id: 'locations', label: 'Platser', slug: '/platser', general: false },
   { id: 'about', label: 'Om', slug: '/om', virtual: true, sub: [] },
   { id: 'contact', label: 'Kontakt', slug: '/kontakt', general: true },
