@@ -1,5 +1,8 @@
 fragment YearFragmentLight on YearRecord {
 	id
 	title
+	color {
+		hex
+	}
 	slug
 }

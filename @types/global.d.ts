@@ -10,6 +10,7 @@ type PageSlug = {
 type PageProps = {
   year: YearExtendedRecord
   title?: string
+  color?: string
   isHome: boolean
   slugs?: PageSlugs[]
   section: SectionId

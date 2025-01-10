@@ -13,7 +13,7 @@
     padding-top: 0.2em;
     padding-bottom: 0.3em;
     text-align: left;
-    color: var(--red);
+    color: var(--theme-color);
 
     span {
       display: -webkit-box;
@@ -97,7 +97,7 @@
 
 
       &:hover {
-        background-color: var(--red) !important;
+        background-color: var(--theme-color) !important;
       }
 
       img {

@@ -6,6 +6,11 @@
 	--green: #097832;
 	--pink: #ff57ff;
 	--archive: #ececec;
+
+	--theme-color: #d20000;
+	--background: var(--back);
+	--foreground: var(--black);
+
 	--outer-margin: 4vw;
 	--logo-size-optical: 0rem;
 	--total-outer-margin: calc((var(--outer-margin) * 2) + var(--logo-size-optical));
@@ -21,8 +26,7 @@
 	--gutter-half: 4vw;
 	--header-height: calc((var(--outer-margin) * 2) + 2.75rem); //snygga upp sen
 	--menu-transition: 0.3s ease-in-out;
-	--background: var(--back);
-	--foreground: var(--black);
+
 	--z-background-image: 0;
 	--z-section-header: 100;
 	--z-language: 300;
@@ -134,7 +138,7 @@ button {
 	padding-right: 1.5em;
 	padding-bottom: 1.5em;
 	padding-top: 1.5em;
-	color: var(--red);
+	color: var(--theme-color);
 	border: 0;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -151,7 +155,8 @@ button {
 		padding-top: 1em;
 	}
 
-	transition: color 0.2s ease-in-out, background-color 0.3s ease-in-out;
+	transition: color 0.2s ease-in-out,
+	background-color 0.3s ease-in-out;
 
 	&.back {
 		width: var(--body-width);
@@ -162,7 +167,7 @@ button {
 	}
 
 	&:hover {
-		background-color: var(--red);
+		background-color: var(--theme-color);
 		color: var(--white);
 	}
 }

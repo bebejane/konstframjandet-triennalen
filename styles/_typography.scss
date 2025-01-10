@@ -17,7 +17,7 @@ h5 {
   line-height: 1.25;
   font-family: $headline-font;
   text-align: center;
-  color: var(--red);
+  color: var(--theme-color);
 
   @include mq($until: tablet) {
     padding-left: var(--outer-margin);
@@ -45,7 +45,7 @@ h5.logo {
       transition: all 0.2s ease-out;
 
       &.logo-solo {
-        color: var(--red);
+        color: var(--theme-color);
         transform: scale(1.8) translate(0.1em, 0.1em);
       }
     }
@@ -97,7 +97,7 @@ p.intro,
     padding-right: 0.5em;
   }
 
-  > p {
+  >p {
     padding: 0;
   }
 }
@@ -139,9 +139,9 @@ b {
 
 // För Article
 article {
-  .structured > p:first-of-type:first-letter {
+  .structured>p:first-of-type:first-letter {
     float: left;
-    color: var(--red);
+    color: var(--theme-color);
     font-size: 4.4rem;
     line-height: 3rem;
     padding-top: 0.55rem;
@@ -182,10 +182,10 @@ article {
     }
   }
 
-  p + h3,
-  ul + h3,
-  ul + h2,
-  p + h2 {
+  p+h3,
+  ul+h3,
+  ul+h2,
+  p+h2 {
     padding-top: 1rem;
   }
 

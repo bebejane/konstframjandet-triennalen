@@ -39,7 +39,7 @@
   }
 
   a:hover {
-    color: var(--red) !important;
+    color: var(--theme-color) !important;
   }
 
   ul {
@@ -103,7 +103,7 @@
 
       &.active {
         >a {
-          color: var(--red) !important;
+          color: var(--theme-color) !important;
         }
       }
 
