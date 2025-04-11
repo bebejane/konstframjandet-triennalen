@@ -1,11 +1,11 @@
-import s from "./Layout.module.scss";
-import React, { useEffect, useState } from "react";
-import { Content, Footer, Grid, Menu, Language, FullscreenGallery } from "/components";
-import type { MenuItem } from "/lib/menu";
-import { buildMenu } from "/lib/menu";
-import { useRouter } from "next/router";
-import { useStore } from "/lib/store";
-import { usePage } from "/lib/context/page";
+import s from './Layout.module.scss';
+import React, { useEffect, useState } from 'react';
+import { Content, Footer, Grid, Menu, Language, FullscreenGallery } from '/components';
+import type { MenuItem } from '/lib/menu';
+import { buildMenu } from '/lib/menu';
+import { useRouter } from 'next/router';
+import { useStore } from '/lib/store';
+import { usePage } from '/lib/context/page';
 
 export type LayoutProps = {
 	children: React.ReactNode;
@@ -32,9 +32,7 @@ export default function Layout({ children, menu: menuFromProps, footer, title }:
 	}, [router.locale]);
 
 	useEffect(() => {
-		//document.body.style.backgroundColor = year?.isArchive || section === 'archive' ? 'var(--archive)' : 'var(--white)'
-		console.log(year.color);
-		if (year.color?.hex) document.body.style.setProperty("--theme-color", year.color.hex);
+		if (year.color?.hex) document.body.style.setProperty('--theme-color', year.color.hex);
 	}, [router.asPath, year, section]);
 
 	if (!menuFromProps || !footer) return null;
@@ -46,10 +44,7 @@ export default function Layout({ children, menu: menuFromProps, footer, title }:
 			</div>
 			<Menu items={menu} />
 			<Language menu={menu} />
-			<Footer
-				menu={menu}
-				footer={footer}
-			/>
+			<Footer menu={menu} footer={footer} />
 			<FullscreenGallery
 				index={images?.findIndex((image) => image?.id === imageId)}
 				images={images}

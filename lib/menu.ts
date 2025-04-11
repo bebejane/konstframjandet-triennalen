@@ -69,7 +69,7 @@ export const buildYearMenu = (res: MenuQueryResponse, { locale, altLocale, isArc
         sub = res.abouts.filter(({ year }) => isArchive ? year : true).map(el => ({
           id: `about-${el.slug}`,
           label: el.title,
-          slug: `/${i18nPaths.about[locale]}/${el.slug}`,
+          slug: `/${isArchive && el.year?.title ? `${el.year?.title}/` : ''}${i18nPaths.about[locale]}/${el.slug}`,
           //altSlug: `/${i18nPaths.about[altLocale]}/${el.altSlug}`
         }))
         if (res.abouts.length) {
