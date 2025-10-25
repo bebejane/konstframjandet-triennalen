@@ -1,11 +1,11 @@
-import { GraphQLClient, gql } from "graphql-request";
-import i18nPaths from "./lib/i18n/paths.json" assert { type: "json" };
+import { GraphQLClient, gql } from 'graphql-request';
+import i18nPaths from './lib/i18n/paths.json';
 
-export const locales = ["sv"];
-export const defaultLocale = "sv";
+export const locales = ['sv'];
+export const defaultLocale = 'sv';
 
 const sassOptions = {
-	includePaths: ["./components", "./pages"],
+	includePaths: ['./components', './pages'],
 	prependData: `
     @use "sass:math";
     @import "./styles/mediaqueries"; 
@@ -40,13 +40,13 @@ export default async (phase, { defaultConfig }) => {
 			config.module.rules.push({
 				test: /\.(graphql|gql)$/,
 				exclude: /node_modules/,
-				loader: "graphql-tag/loader",
+				loader: 'graphql-tag/loader',
 			});
 			config.module.rules.push({
 				test: /\.svg$/i,
 				issuer: /\.[jt]sx?$/,
 				exclude: /node_modules/,
-				use: ["@svgr/webpack"],
+				use: ['@svgr/webpack'],
 			});
 			return config;
 		},
