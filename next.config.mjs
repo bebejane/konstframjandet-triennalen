@@ -1,6 +1,3 @@
-import { GraphQLClient, gql } from 'graphql-request';
-import i18nPaths from './lib/i18n/paths.json';
-
 export const locales = ['sv'];
 export const defaultLocale = 'sv';
 
